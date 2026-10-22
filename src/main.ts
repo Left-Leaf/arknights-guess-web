@@ -83,9 +83,12 @@ const operatorFields: FieldDef[] = [
   {
     key: "release_year",
     label: "实装",
-    weight: 0.9,
+    weight: 1.3,
     value: (item) => String((item as Operator).release_year),
-    sub: () => "",
+    sub: (item) => {
+      const debut = (item as Operator).debut ?? "";
+      return debut ? `登场：${debut}` : "";
+    },
   },
 ];
 

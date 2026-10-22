@@ -140,7 +140,7 @@ h1 span { color: var(--accent); }
 .cell-icon { display: inline-flex; flex-shrink: 0; width: 13px; height: 13px; }
 .cell-icon svg { display: block; width: 100%; height: 100%; }
 .cell-text { min-width: 0; }
-.cell-sub { display: block; max-width: 100%; overflow: hidden; color: var(--muted); font-size: 9px; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
+.cell-sub { display: block; max-width: 100%; overflow: hidden; color: var(--muted); font-size: 10px; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
 .tone-correct { color: #bbf7d0; border-color: var(--green); background: var(--green-bg); }
 .tone-close { color: #fde047; border-color: var(--yellow); background: var(--yellow-bg); }
 .tone-higher, .tone-lower { color: #bfdbfe; border-color: var(--blue); background: var(--blue-bg); }
@@ -214,7 +214,7 @@ h1 span { color: var(--accent); }
   .cell-main { display: flex; flex-wrap: nowrap; gap: 2px; align-items: center; font-size: clamp(5.3px, 1.7vw, 7px); line-height: 1.15; text-align: center; overflow: visible; }
   .cell-text { overflow: visible; white-space: normal; overflow-wrap: anywhere; text-overflow: clip; }
   .cell-icon { width: 9px; height: 9px; }
-  .cell-sub { display: block; overflow: hidden; font-size: clamp(4.2px, 1.15vw, 5px); line-height: 1.15; white-space: normal; overflow-wrap: anywhere; text-align: center; text-overflow: clip; }
+  .cell-sub { display: block; overflow: hidden; font-size: clamp(5px, 1.5vw, 7px); line-height: 1.2; white-space: normal; overflow-wrap: anywhere; text-align: center; text-overflow: clip; }
 
   .empty-board { min-height: 84px; font-size: 11px; }
   .status-bar { padding: 11px 12px; border-radius: 9px; font-size: 11px; }

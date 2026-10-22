@@ -1,6 +1,6 @@
 {
-  "version": "20261021.6",
-  "updatedAt": "2026-10-21T14:05:15.453Z",
+  "version": "20261022.2",
+  "updatedAt": "2026-10-22T13:06:11.595Z",
   "operators": [
     {
       "id": "char_002_amiya",
@@ -14,7 +14,8 @@
         "巴别塔"
       ],
       "race": "卡特斯/奇美拉",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_003_kalts",
@@ -27,7 +28,8 @@
         "巴别塔"
       ],
       "race": "菲林",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "覆潮之下"
     },
     {
       "id": "char_009_12fce",
@@ -38,7 +40,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_010_chen",
@@ -49,7 +52,8 @@
       "faction": "炎-龙门,龙门近卫局",
       "faction_hidden": [],
       "race": "龙",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "靶向药物"
     },
     {
       "id": "char_017_huang",
@@ -63,7 +67,8 @@
         "维多利亚"
       ],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "局部坏死"
     },
     {
       "id": "char_1001_amiya2",
@@ -77,7 +82,8 @@
         "巴别塔"
       ],
       "race": "卡特斯/奇美拉",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "感谢庆典2020"
     },
     {
       "id": "char_1011_lava2",
@@ -90,7 +96,8 @@
         "维多利亚"
       ],
       "race": "萨卡兹",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "画中人"
     },
     {
       "id": "char_1012_skadi2",
@@ -101,7 +108,8 @@
       "faction": "阿戈尔",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "覆潮之下"
     },
     {
       "id": "char_1013_chen2",
@@ -114,7 +122,8 @@
         "炎"
       ],
       "race": "龙",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "多索雷斯假日"
     },
     {
       "id": "char_1014_nearl2",
@@ -128,7 +137,8 @@
         "罗德岛"
       ],
       "race": "库兰塔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_1015_aglna2",
@@ -141,7 +151,8 @@
         "叙拉古"
       ],
       "race": "沃尔珀",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "直到大地变成一颗酸橙"
     },
     {
       "id": "char_1016_agoat2",
@@ -152,7 +163,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "火山旅梦"
     },
     {
       "id": "char_1019_siege2",
@@ -166,7 +178,8 @@
         "格拉斯哥帮"
       ],
       "race": "阿斯兰",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "追迹日落以西"
     },
     {
       "id": "char_101_sora",
@@ -177,7 +190,8 @@
       "faction": "炎-龙门,企鹅物流",
       "faction_hidden": [],
       "race": "因经纪公司要求不公开",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_1020_reed2",
@@ -188,7 +202,8 @@
       "faction": "维多利亚,塔拉",
       "faction_hidden": [],
       "race": "德拉克",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "照我以火"
     },
     {
       "id": "char_1021_kroos2",
@@ -201,7 +216,8 @@
         "雷姆必拓"
       ],
       "race": "卡特斯",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "将进酒"
     },
     {
       "id": "char_1022_flwr2",
@@ -214,7 +230,8 @@
         "米诺斯"
       ],
       "race": "沃尔珀",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "雅赛努斯复仇记"
     },
     {
       "id": "char_1023_ghost2",
@@ -225,7 +242,8 @@
       "faction": "阿戈尔,深海猎人",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "愚人号"
     },
     {
       "id": "char_1024_hbisc2",
@@ -238,7 +256,8 @@
         "维多利亚"
       ],
       "race": "萨卡兹",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "尘影余音"
     },
     {
       "id": "char_1026_gvial2",
@@ -251,7 +270,8 @@
         "萨尔贡"
       ],
       "race": "阿达克利斯",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "理想城长夏狂欢季"
     },
     {
       "id": "char_1027_greyy2",
@@ -264,7 +284,8 @@
         "玻利瓦尔"
       ],
       "race": "佩洛",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "绿野幻梦"
     },
     {
       "id": "char_1028_texas2",
@@ -277,7 +298,8 @@
         "叙拉古"
       ],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "黎明前奏开播纪念"
     },
     {
       "id": "char_1029_yato2",
@@ -290,7 +312,8 @@
         "东"
       ],
       "race": "鬼",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "落叶逐火"
     },
     {
       "id": "char_102_texas",
@@ -303,7 +326,8 @@
         "叙拉古"
       ],
       "race": "鲁珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_1030_noirc2",
@@ -316,7 +340,8 @@
         "东"
       ],
       "race": "鬼",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "落叶逐火"
     },
     {
       "id": "char_1031_slent2",
@@ -327,7 +352,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "孤星"
     },
     {
       "id": "char_1032_excu2",
@@ -338,7 +364,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "空想花庭"
     },
     {
       "id": "char_1033_swire2",
@@ -349,7 +376,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "火山旅梦"
     },
     {
       "id": "char_1034_jesca2",
@@ -362,7 +390,8 @@
         "维多利亚"
       ],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "不义之财"
     },
     {
       "id": "char_1035_wisdel",
@@ -375,7 +404,8 @@
         "罗德岛"
       ],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_1036_fang2",
@@ -388,7 +418,8 @@
         "卡西米尔"
       ],
       "race": "库兰塔",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_1037_amiya3",
@@ -402,7 +433,8 @@
         "巴别塔"
       ],
       "race": "卡特斯/奇美拉",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_1038_whitw2",
@@ -413,7 +445,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "揭幕者们"
     },
     {
       "id": "char_1039_thorn2",
@@ -424,7 +457,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "出苍白海"
     },
     {
       "id": "char_103_angel",
@@ -437,7 +471,8 @@
         "拉特兰"
       ],
       "race": "萨科塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_1040_blaze2",
@@ -451,7 +486,8 @@
         "维多利亚"
       ],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "相见欢"
     },
     {
       "id": "char_1041_angel2",
@@ -464,7 +500,8 @@
         "拉特兰"
       ],
       "race": "萨科塔",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "众生行记"
     },
     {
       "id": "char_1042_phatm2",
@@ -475,7 +512,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "红丝绒"
     },
     {
       "id": "char_1043_leizi2",
@@ -486,7 +524,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "麒麟",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "镜中集"
     },
     {
       "id": "char_1044_hsgma2",
@@ -499,7 +538,8 @@
         "东"
       ],
       "race": "鬼",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "墟"
     },
     {
       "id": "char_1045_svash2",
@@ -510,7 +550,8 @@
       "faction": "谢拉格",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "雪山降临1101"
     },
     {
       "id": "char_1046_sbell2",
@@ -521,7 +562,8 @@
       "faction": "谢拉格",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "雪山降临1101"
     },
     {
       "id": "char_1047_halo2",
@@ -532,7 +574,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "雪山降临1101"
     },
     {
       "id": "char_1048_orchd2",
@@ -545,7 +588,8 @@
         "哥伦比亚"
       ],
       "race": "黎博利",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "泡影苍霆"
     },
     {
       "id": "char_1049_catap2",
@@ -558,7 +602,8 @@
         "卡西米尔"
       ],
       "race": "库兰塔",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "泡影苍霆"
     },
     {
       "id": "char_1050_chen3",
@@ -571,7 +616,8 @@
         "罗德岛"
       ],
       "race": "龙",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "辞岁行"
     },
     {
       "id": "char_1051_headb2",
@@ -582,7 +628,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "人们，我们"
     },
     {
       "id": "char_1052_kalts2",
@@ -593,7 +640,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "回望泰拉"
     },
     {
       "id": "char_106_franka",
@@ -604,7 +652,8 @@
       "faction": "哥伦比亚,黑钢国际",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_107_liskam",
@@ -615,7 +664,8 @@
       "faction": "哥伦比亚,黑钢国际",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_108_silent",
@@ -626,7 +676,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_109_fmout",
@@ -637,7 +688,8 @@
       "faction": "萨米",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_110_deepcl",
@@ -648,7 +700,8 @@
       "faction": "阿戈尔",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_112_siege",
@@ -659,7 +712,8 @@
       "faction": "维多利亚,格拉斯哥帮",
       "faction_hidden": [],
       "race": "阿斯兰",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_113_cqbw",
@@ -672,7 +726,8 @@
         "罗德岛"
       ],
       "race": "萨卡兹",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_115_headbr",
@@ -683,7 +738,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_117_myrrh",
@@ -694,7 +750,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_118_yuki",
@@ -705,7 +762,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "阿纳缇",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_120_hibisc",
@@ -718,7 +776,8 @@
         "维多利亚"
       ],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_121_lava",
@@ -731,7 +790,8 @@
         "维多利亚"
       ],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_122_beagle",
@@ -744,7 +804,8 @@
         "玻利瓦尔"
       ],
       "race": "佩洛",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_123_fang",
@@ -757,7 +818,8 @@
         "卡西米尔"
       ],
       "race": "库兰塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_124_kroos",
@@ -770,7 +832,8 @@
         "雷姆必拓"
       ],
       "race": "卡特斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_126_shotst",
@@ -781,7 +844,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_127_estell",
@@ -792,7 +856,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "阿达克利斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_128_plosis",
@@ -805,7 +870,8 @@
         "罗德岛"
       ],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_129_bluep",
@@ -816,7 +882,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "安努拉",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_130_doberm",
@@ -829,7 +896,8 @@
         "玻利瓦尔"
       ],
       "race": "佩洛",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_131_flameb",
@@ -840,7 +908,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "战地秘闻"
     },
     {
       "id": "char_133_mm",
@@ -851,7 +920,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "喧闹法则"
     },
     {
       "id": "char_134_ifrit",
@@ -862,7 +932,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_135_halo",
@@ -873,7 +944,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "绿野幻梦"
     },
     {
       "id": "char_136_hsguma",
@@ -886,7 +958,8 @@
         "东"
       ],
       "race": "鬼",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_137_brownb",
@@ -897,7 +970,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "骑兵与猎人"
     },
     {
       "id": "char_140_whitew",
@@ -908,7 +982,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_141_nights",
@@ -919,7 +994,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_143_ghost",
@@ -930,7 +1006,8 @@
       "faction": "阿戈尔,深海猎人",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_144_red",
@@ -943,7 +1020,8 @@
         "叙拉古"
       ],
       "race": "鲁珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_145_prove",
@@ -954,7 +1032,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_147_shining",
@@ -965,7 +1044,8 @@
       "faction": "使徒",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_148_nearl",
@@ -979,7 +1059,8 @@
         "罗德岛"
       ],
       "race": "库兰塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_149_scave",
@@ -990,7 +1071,8 @@
       "faction": "罗德岛,S.W.E.E.P.",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_1502_crosly",
@@ -1004,7 +1086,8 @@
         "乌萨斯"
       ],
       "race": "瑞柏巴",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "揭幕者们"
     },
     {
       "id": "char_150_snakek",
@@ -1015,7 +1098,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "匹特拉姆",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_151_myrtle",
@@ -1026,7 +1110,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "杜林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": ""
     },
     {
       "id": "char_154_morgan",
@@ -1037,7 +1122,8 @@
       "faction": "维多利亚,格拉斯哥帮",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_155_tiger",
@@ -1048,7 +1134,8 @@
       "faction": "维多利亚,格拉斯哥帮",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_157_dagda",
@@ -1059,7 +1146,8 @@
       "faction": "维多利亚,格拉斯哥帮",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_158_milu",
@@ -1072,7 +1160,8 @@
         "卡西米尔"
       ],
       "race": "埃拉菲亚",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_159_peacok",
@@ -1083,7 +1172,8 @@
       "faction": "米诺斯",
       "faction_hidden": [],
       "race": "未知（疑似黎博利）",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": ""
     },
     {
       "id": "char_163_hpsts",
@@ -1094,7 +1184,8 @@
       "faction": "米诺斯",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_164_nightm",
@@ -1105,7 +1196,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "骑兵与猎人"
     },
     {
       "id": "char_166_skfire",
@@ -1116,7 +1208,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_171_bldsk",
@@ -1129,7 +1222,8 @@
         "巴别塔"
       ],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_172_svrash",
@@ -1140,7 +1234,8 @@
       "faction": "谢拉格,喀兰贸易",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_173_slchan",
@@ -1154,7 +1249,8 @@
         "喀兰贸易"
       ],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_174_slbell",
@@ -1168,7 +1264,8 @@
         "喀兰贸易"
       ],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_179_cgbird",
@@ -1179,7 +1276,8 @@
       "faction": "使徒",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_180_amgoat",
@@ -1190,7 +1288,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_181_flower",
@@ -1203,7 +1302,8 @@
         "米诺斯"
       ],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_183_skgoat",
@@ -1214,7 +1314,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_185_frncat",
@@ -1225,7 +1326,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_187_ccheal",
@@ -1238,7 +1340,8 @@
         "萨尔贡"
       ],
       "race": "阿达克利斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_188_helage",
@@ -1249,7 +1352,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": ""
     },
     {
       "id": "char_190_clour",
@@ -1260,7 +1364,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "战地秘闻"
     },
     {
       "id": "char_192_falco",
@@ -1271,7 +1376,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_193_frostl",
@@ -1284,7 +1390,8 @@
         "哥伦比亚"
       ],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_194_leto",
@@ -1295,7 +1402,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "银心湖列车"
     },
     {
       "id": "char_195_glassb",
@@ -1306,7 +1414,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_196_sunbr",
@@ -1317,7 +1426,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_197_poca",
@@ -1328,7 +1438,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "乌萨斯的孩子们"
     },
     {
       "id": "char_198_blackd",
@@ -1339,7 +1450,8 @@
       "faction": "谢拉格,喀兰贸易",
       "faction_hidden": [],
       "race": "依特拉",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_199_yak",
@@ -1350,7 +1462,8 @@
       "faction": "谢拉格,喀兰贸易",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_2012_typhon",
@@ -1361,7 +1474,8 @@
       "faction": "萨米",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "眠于树影之中"
     },
     {
       "id": "char_2013_cerber",
@@ -1374,7 +1488,8 @@
         "玻利瓦尔"
       ],
       "race": "佩洛",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "午间逸话"
     },
     {
       "id": "char_2014_nian",
@@ -1385,7 +1500,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": ""
     },
     {
       "id": "char_2015_dusk",
@@ -1396,7 +1512,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "画中人"
     },
     {
       "id": "char_201_moeshd",
@@ -1407,7 +1524,8 @@
       "faction": "炎-龙门,企鹅物流",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_2023_ling",
@@ -1418,7 +1536,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "将进酒"
     },
     {
       "id": "char_2024_chyue",
@@ -1429,7 +1548,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "登临意"
     },
     {
       "id": "char_2025_shu",
@@ -1440,7 +1560,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "怀黍离"
     },
     {
       "id": "char_2026_yu",
@@ -1451,7 +1572,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "相见欢"
     },
     {
       "id": "char_2027_wang",
@@ -1462,7 +1584,8 @@
       "faction": "炎,炎-岁",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "辞岁行"
     },
     {
       "id": "char_202_demkni",
@@ -1473,7 +1596,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_204_platnm",
@@ -1484,7 +1608,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_206_gnosis",
@@ -1495,7 +1620,8 @@
       "faction": "谢拉格,喀兰贸易",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "风雪过境"
     },
     {
       "id": "char_208_melan",
@@ -1508,7 +1634,8 @@
         "维多利亚"
       ],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_209_ardign",
@@ -1521,7 +1648,8 @@
         "莱塔尼亚"
       ],
       "race": "佩洛",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_210_stward",
@@ -1534,7 +1662,8 @@
         "谢拉格"
       ],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_211_adnach",
@@ -1547,7 +1676,8 @@
         "拉特兰"
       ],
       "race": "萨科塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_212_ansel",
@@ -1560,7 +1690,8 @@
         "雷姆必拓"
       ],
       "race": "卡特斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_213_mostma",
@@ -1574,7 +1705,8 @@
         "企鹅物流"
       ],
       "race": "未公开",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "喧闹法则"
     },
     {
       "id": "char_214_kafka",
@@ -1585,7 +1717,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "孤岛风云"
     },
     {
       "id": "char_215_mantic",
@@ -1596,7 +1729,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "曼提柯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_218_cuttle",
@@ -1607,7 +1741,8 @@
       "faction": "阿戈尔,深海猎人",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "火蓝之心2020"
     },
     {
       "id": "char_219_meteo",
@@ -1618,7 +1753,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_220_grani",
@@ -1629,7 +1765,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "骑兵与猎人"
     },
     {
       "id": "char_222_bpipe",
@@ -1640,7 +1777,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/荒芜行动"
     },
     {
       "id": "char_225_haak",
@@ -1651,7 +1789,8 @@
       "faction": "炎-龙门,鲤氏侦探事务所",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": ""
     },
     {
       "id": "char_226_hmau",
@@ -1662,7 +1801,8 @@
       "faction": "炎-龙门,鲤氏侦探事务所",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": ""
     },
     {
       "id": "char_230_savage",
@@ -1675,7 +1815,8 @@
         "罗德岛"
       ],
       "race": "卡特斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_235_jesica",
@@ -1688,7 +1829,8 @@
         "维多利亚"
       ],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_236_rope",
@@ -1701,7 +1843,8 @@
         "雷姆必拓"
       ],
       "race": "卡特斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_237_gravel",
@@ -1712,7 +1855,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_240_wyvern",
@@ -1723,7 +1867,8 @@
       "faction": "哥伦比亚,黑钢国际",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_241_panda",
@@ -1734,7 +1879,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_242_otter",
@@ -1745,7 +1891,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "阿纳缇",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_243_waaifu",
@@ -1756,7 +1903,8 @@
       "faction": "炎-龙门,鲤氏侦探事务所",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "喧闹法则"
     },
     {
       "id": "char_245_cello",
@@ -1767,7 +1915,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_248_mgllan",
@@ -1778,7 +1927,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "战地秘闻"
     },
     {
       "id": "char_249_mlyss",
@@ -1789,7 +1939,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "精灵",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "孤星"
     },
     {
       "id": "char_250_phatom",
@@ -1800,7 +1951,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_252_bibeak",
@@ -1811,7 +1963,8 @@
       "faction": "萨米",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/荒芜行动"
     },
     {
       "id": "char_253_greyy",
@@ -1822,7 +1975,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "靶向药物"
     },
     {
       "id": "char_254_vodfox",
@@ -1833,7 +1987,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_258_podego",
@@ -1846,7 +2001,8 @@
         "玻利瓦尔"
       ],
       "race": "佩洛",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "乌萨斯的孩子们"
     },
     {
       "id": "char_260_durnar",
@@ -1859,7 +2015,8 @@
         "哥伦比亚"
       ],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": ""
     },
     {
       "id": "char_261_sddrag",
@@ -1873,7 +2030,8 @@
         "塔拉"
       ],
       "race": "德拉克",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "新章节“局部坏死”预热活动"
     },
     {
       "id": "char_263_skadi",
@@ -1884,7 +2042,8 @@
       "faction": "阿戈尔,深海猎人",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "骑兵与猎人"
     },
     {
       "id": "char_264_f12yin",
@@ -1895,7 +2054,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "孤岛风云"
     },
     {
       "id": "char_265_sophia",
@@ -1906,7 +2066,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "玛莉娅临光"
     },
     {
       "id": "char_271_spikes",
@@ -1917,7 +2078,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "踏寻往昔之风"
     },
     {
       "id": "char_272_strong",
@@ -1928,7 +2090,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "火蓝之心2020"
     },
     {
       "id": "char_274_astesi",
@@ -1939,7 +2102,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": ""
     },
     {
       "id": "char_275_breeze",
@@ -1950,7 +2114,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "感谢庆典"
     },
     {
       "id": "char_277_sqrrel",
@@ -1961,7 +2126,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_278_orchid",
@@ -1974,7 +2140,8 @@
         "哥伦比亚"
       ],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_279_excu",
@@ -1985,7 +2152,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "战地秘闻"
     },
     {
       "id": "char_281_popka",
@@ -1998,7 +2166,8 @@
         "雷姆必拓"
       ],
       "race": "卡特斯",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "靶向药物"
     },
     {
       "id": "char_282_catap",
@@ -2011,7 +2180,8 @@
         "卡西米尔"
       ],
       "race": "库兰塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "下载人数突破500万纪念活动"
     },
     {
       "id": "char_283_midn",
@@ -2024,7 +2194,8 @@
         "东"
       ],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "骑兵与猎人"
     },
     {
       "id": "char_284_spot",
@@ -2037,7 +2208,8 @@
         "萨尔贡"
       ],
       "race": "瑞柏巴",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "靶向药物"
     },
     {
       "id": "char_285_medic2",
@@ -2048,7 +2220,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_286_cast3",
@@ -2059,7 +2232,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_289_gyuki",
@@ -2070,7 +2244,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "鬼",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_290_vigna",
@@ -2081,7 +2256,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_291_aglina",
@@ -2092,7 +2268,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_293_thorns",
@@ -2103,7 +2280,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "火蓝之心2020"
     },
     {
       "id": "char_294_ayer",
@@ -2114,7 +2292,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "沃伦姆德的薄暮"
     },
     {
       "id": "char_297_hamoni",
@@ -2125,7 +2304,8 @@
       "faction": "维多利亚,塔拉",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "照我以火"
     },
     {
       "id": "char_298_susuro",
@@ -2138,7 +2318,8 @@
         "叙拉古"
       ],
       "race": "沃尔珀",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "火蓝之心"
     },
     {
       "id": "char_300_phenxi",
@@ -2149,7 +2330,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "吾导先路"
     },
     {
       "id": "char_301_cutter",
@@ -2160,7 +2342,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_302_glaze",
@@ -2171,7 +2354,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "局部坏死"
     },
     {
       "id": "char_304_zebra",
@@ -2184,7 +2368,8 @@
         "萨尔贡"
       ],
       "race": "库兰塔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "遗尘漫步"
     },
     {
       "id": "char_306_leizi",
@@ -2195,7 +2380,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "麒麟",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "午间逸话"
     },
     {
       "id": "char_308_swire",
@@ -2206,7 +2392,8 @@
       "faction": "炎-龙门,龙门近卫局",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "靶向药物"
     },
     {
       "id": "char_311_mudrok",
@@ -2217,7 +2404,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "感谢庆典2020"
     },
     {
       "id": "char_322_lmlee",
@@ -2228,7 +2416,8 @@
       "faction": "炎-龙门,鲤氏侦探事务所",
       "faction_hidden": [],
       "race": "龙",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "将进酒"
     },
     {
       "id": "char_325_bison",
@@ -2239,7 +2428,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "喧闹法则"
     },
     {
       "id": "char_326_glacus",
@@ -2250,7 +2440,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "火蓝之心"
     },
     {
       "id": "char_328_cammou",
@@ -2261,7 +2452,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "沃伦姆德的薄暮"
     },
     {
       "id": "char_332_archet",
@@ -2272,7 +2464,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "此地之外"
     },
     {
       "id": "char_333_sidero",
@@ -2283,7 +2476,8 @@
       "faction": "米诺斯",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_336_folivo",
@@ -2294,7 +2488,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "皮洛萨",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/利刃行动"
     },
     {
       "id": "char_337_utage",
@@ -2305,7 +2500,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "不明",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/荒芜行动"
     },
     {
       "id": "char_338_iris",
@@ -2316,7 +2512,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "此地之外"
     },
     {
       "id": "char_340_shwaz",
@@ -2327,7 +2524,8 @@
       "faction": "哥伦比亚,汐斯塔",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "火蓝之心"
     },
     {
       "id": "char_341_sntlla",
@@ -2338,7 +2536,8 @@
       "faction": "萨米",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "眠于树影之中"
     },
     {
       "id": "char_343_tknogi",
@@ -2349,7 +2548,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/黄铁行动"
     },
     {
       "id": "char_344_beewax",
@@ -2360,7 +2560,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/利刃行动"
     },
     {
       "id": "char_345_folnic",
@@ -2371,7 +2572,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "沃伦姆德的薄暮"
     },
     {
       "id": "char_346_aosta",
@@ -2382,7 +2584,8 @@
       "faction": "叙拉古,贾维团伙",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "玛莉娅临光"
     },
     {
       "id": "char_347_jaksel",
@@ -2393,7 +2596,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "感谢庆典2020"
     },
     {
       "id": "char_348_ceylon",
@@ -2404,7 +2608,8 @@
       "faction": "哥伦比亚,汐斯塔",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "火蓝之心"
     },
     {
       "id": "char_349_chiave",
@@ -2415,7 +2620,8 @@
       "faction": "叙拉古,贾维团伙",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/利刃行动"
     },
     {
       "id": "char_350_surtr",
@@ -2426,7 +2632,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "踏寻往昔之风"
     },
     {
       "id": "char_355_ethan",
@@ -2437,7 +2644,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "感谢庆典"
     },
     {
       "id": "char_356_broca",
@@ -2448,7 +2656,8 @@
       "faction": "叙拉古,贾维团伙",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "新章节“局部坏死”预热活动"
     },
     {
       "id": "char_358_lisa",
@@ -2461,7 +2670,8 @@
         "东"
       ],
       "race": "沃尔珀",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "沃伦姆德的薄暮"
     },
     {
       "id": "char_362_saga",
@@ -2472,7 +2682,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "画中人"
     },
     {
       "id": "char_363_toddi",
@@ -2483,7 +2694,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "遗尘漫步"
     },
     {
       "id": "char_365_aprl",
@@ -2494,7 +2706,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "踏寻往昔之风"
     },
     {
       "id": "char_366_acdrop",
@@ -2505,7 +2718,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "密林悍将归来"
     },
     {
       "id": "char_367_swllow",
@@ -2516,7 +2730,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "局部坏死"
     },
     {
       "id": "char_369_bena",
@@ -2527,7 +2742,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "灯火序曲"
     },
     {
       "id": "char_373_lionhd",
@@ -2538,7 +2754,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "乌萨斯的孩子们"
     },
     {
       "id": "char_376_therex",
@@ -2549,7 +2766,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_377_gdglow",
@@ -2560,7 +2778,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "阴云火花"
     },
     {
       "id": "char_378_asbest",
@@ -2571,7 +2790,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/黄铁行动"
     },
     {
       "id": "char_379_sesa",
@@ -2582,7 +2802,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "危机合约/荒芜行动"
     },
     {
       "id": "char_381_bubble",
@@ -2593,7 +2814,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "塞拉托",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "玛莉娅临光"
     },
     {
       "id": "char_383_snsant",
@@ -2604,7 +2826,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "跨年纪念"
     },
     {
       "id": "char_385_finlpp",
@@ -2615,7 +2838,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "万类共生"
     },
     {
       "id": "char_388_mint",
@@ -2626,7 +2850,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "踏寻往昔之风"
     },
     {
       "id": "char_391_rosmon",
@@ -2639,7 +2864,8 @@
         "哥伦比亚"
       ],
       "race": "菲林",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "感谢庆典2020"
     },
     {
       "id": "char_393_toledo",
@@ -2650,7 +2876,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "昨日海"
     },
     {
       "id": "char_394_hadiya",
@@ -2663,7 +2890,8 @@
         "哥伦比亚"
       ],
       "race": "卡普里尼",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "雪山降临1101"
     },
     {
       "id": "char_4000_jnight",
@@ -2674,7 +2902,8 @@
       "faction": "卡西米尔,红松骑士团",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_4004_pudd",
@@ -2685,7 +2914,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_4006_melnte",
@@ -2696,7 +2926,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "孤星"
     },
     {
       "id": "char_4009_irene",
@@ -2707,7 +2938,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "愚人号"
     },
     {
       "id": "char_400_weedy",
@@ -2720,7 +2952,8 @@
         "伊比利亚"
       ],
       "race": "阿戈尔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_4010_etlchi",
@@ -2733,7 +2966,8 @@
         "巴别塔"
       ],
       "race": "萨卡兹",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "我们明日见"
     },
     {
       "id": "char_4011_lessng",
@@ -2744,7 +2978,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4013_kjera",
@@ -2758,7 +2993,8 @@
         "喀兰贸易"
       ],
       "race": "未公开",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "风雪过境"
     },
     {
       "id": "char_4014_lunacu",
@@ -2769,7 +3005,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "黎明前奏开播纪念"
     },
     {
       "id": "char_4015_spuria",
@@ -2780,7 +3017,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "空想花庭"
     },
     {
       "id": "char_4016_kazema",
@@ -2793,7 +3031,8 @@
         "罗德岛"
       ],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "吾导先路"
     },
     {
       "id": "char_4017_puzzle",
@@ -2804,7 +3043,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "照我以火"
     },
     {
       "id": "char_4019_ncdeer",
@@ -2815,7 +3055,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "画中人2022"
     },
     {
       "id": "char_401_elysm",
@@ -2828,7 +3069,8 @@
         "伊比利亚"
       ],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "生于黑夜"
     },
     {
       "id": "char_4023_rfalcn",
@@ -2839,7 +3081,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "怀黍离"
     },
     {
       "id": "char_4025_aprot2",
@@ -2850,7 +3093,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "傀影与猩红孤钻"
     },
     {
       "id": "char_4026_vulpis",
@@ -2861,7 +3105,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "揭幕者们"
     },
     {
       "id": "char_4027_heyak",
@@ -2872,7 +3117,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "孤星"
     },
     {
       "id": "char_402_tuye",
@@ -2883,7 +3129,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "危机合约/铅封行动"
     },
     {
       "id": "char_4031_liesel",
@@ -2896,7 +3143,8 @@
         "莱塔尼亚"
       ],
       "race": "卡普里尼",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "十字路口"
     },
     {
       "id": "char_4032_provs",
@@ -2907,7 +3155,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "日暮寻路"
     },
     {
       "id": "char_4036_forcer",
@@ -2918,7 +3167,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "吾导先路"
     },
     {
       "id": "char_4037_demetr",
@@ -2929,7 +3179,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "十字路口"
     },
     {
       "id": "char_4039_horn",
@@ -2940,7 +3191,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "傀影与猩红孤钻"
     },
     {
       "id": "char_4040_rockr",
@@ -2951,7 +3203,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "傀影与猩红孤钻"
     },
     {
       "id": "char_4041_chnut",
@@ -2962,7 +3215,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "杜林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "傀影与猩红孤钻"
     },
     {
       "id": "char_4042_lumen",
@@ -2973,7 +3227,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "愚人号"
     },
     {
       "id": "char_4043_erato",
@@ -2984,7 +3239,8 @@
       "faction": "米诺斯",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "愚人号"
     },
     {
       "id": "char_4045_heidi",
@@ -2995,7 +3251,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "傀影与猩红孤钻"
     },
     {
       "id": "char_4046_ebnhlz",
@@ -3006,7 +3263,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "尘影余音"
     },
     {
       "id": "char_4047_pianst",
@@ -3017,7 +3275,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "尘影余音"
     },
     {
       "id": "char_4048_doroth",
@@ -3028,7 +3287,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "绿野幻梦"
     },
     {
       "id": "char_4051_akkord",
@@ -3039,7 +3299,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "雪山降临1101"
     },
     {
       "id": "char_4052_surfer",
@@ -3050,7 +3311,8 @@
       "faction": "哥伦比亚,黑钢国际",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "相见欢"
     },
     {
       "id": "char_4054_malist",
@@ -3061,7 +3323,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "杜林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "理想城长夏狂欢季"
     },
     {
       "id": "char_4055_bgsnow",
@@ -3074,7 +3337,8 @@
         "萨尔贡"
       ],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "理想城长夏狂欢季"
     },
     {
       "id": "char_4056_titi",
@@ -3087,7 +3351,8 @@
         "米诺斯"
       ],
       "race": "菲林",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "雅赛努斯复仇记"
     },
     {
       "id": "char_4058_pepe",
@@ -3098,7 +3363,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "太阳甩在身后"
     },
     {
       "id": "char_405_absin",
@@ -3109,7 +3375,8 @@
       "faction": "乌萨斯,乌萨斯学生自治团",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "乌萨斯的孩子们"
     },
     {
       "id": "char_4062_totter",
@@ -3120,7 +3387,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4063_quartz",
@@ -3131,7 +3399,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "黎明前奏开播纪念"
     },
     {
       "id": "char_4064_mlynar",
@@ -3142,7 +3411,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "日暮寻路"
     },
     {
       "id": "char_4065_judge",
@@ -3153,7 +3423,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "黎明前奏开播纪念"
     },
     {
       "id": "char_4066_highmo",
@@ -3164,7 +3435,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "长夜临光2022"
     },
     {
       "id": "char_4067_lolxh",
@@ -3175,7 +3447,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "好久不见"
     },
     {
       "id": "char_4071_peper",
@@ -3186,7 +3459,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4072_ironmn",
@@ -3197,7 +3471,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4077_palico",
@@ -3208,7 +3483,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "落叶逐火"
     },
     {
       "id": "char_4078_bdhkgt",
@@ -3219,7 +3495,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "阿纳萨",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "登临意"
     },
     {
       "id": "char_4079_haini",
@@ -3230,7 +3507,8 @@
       "faction": "阿戈尔",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "生路"
     },
     {
       "id": "char_4080_lin",
@@ -3241,7 +3519,8 @@
       "faction": "炎-龙门",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "登临意"
     },
     {
       "id": "char_4081_warmy",
@@ -3252,7 +3531,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "去咧嘴谷"
     },
     {
       "id": "char_4082_qiubai",
@@ -3263,7 +3543,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "春分"
     },
     {
       "id": "char_4083_chimes",
@@ -3274,7 +3555,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "春分"
     },
     {
       "id": "char_4087_ines",
@@ -3285,7 +3567,8 @@
       "faction": "巴别塔",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4088_hodrer",
@@ -3296,7 +3579,8 @@
       "faction": "巴别塔",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4091_ulika",
@@ -3307,7 +3591,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4093_frston",
@@ -3318,7 +3603,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4098_vvana",
@@ -3331,7 +3617,8 @@
         "卡西米尔"
       ],
       "race": "埃拉菲亚",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4100_caper",
@@ -3342,7 +3629,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4102_threye",
@@ -3353,7 +3641,8 @@
       "faction": "萨米",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "探索者的银凇止境"
     },
     {
       "id": "char_4104_coldst",
@@ -3364,7 +3653,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "不义之财"
     },
     {
       "id": "char_4105_almond",
@@ -3375,7 +3665,8 @@
       "faction": "哥伦比亚,黑钢国际",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "不义之财"
     },
     {
       "id": "char_4106_bryota",
@@ -3386,7 +3677,8 @@
       "faction": "哥伦比亚,汐斯塔",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "火山旅梦"
     },
     {
       "id": "char_4107_vrdant",
@@ -3397,7 +3689,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4109_baslin",
@@ -3408,7 +3701,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4110_delphn",
@@ -3419,7 +3713,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_4114_harold",
@@ -3432,7 +3727,8 @@
         "谢拉格"
       ],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "银心湖列车"
     },
     {
       "id": "char_4116_blkkgt",
@@ -3446,7 +3742,8 @@
         "莱塔尼亚"
       ],
       "race": "卡普里尼",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "银心湖列车"
     },
     {
       "id": "char_4117_ray",
@@ -3457,7 +3754,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "去咧嘴谷"
     },
     {
       "id": "char_4119_wanqin",
@@ -3468,7 +3766,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "怀黍离"
     },
     {
       "id": "char_411_tomimi",
@@ -3479,7 +3778,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "阿达克利斯",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "密林悍将归来"
     },
     {
       "id": "char_4121_zuole",
@@ -3490,7 +3790,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "怀黍离"
     },
     {
       "id": "char_4122_grabds",
@@ -3501,7 +3802,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "怀黍离"
     },
     {
       "id": "char_4123_ela",
@@ -3512,7 +3814,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "水晶箭行动"
     },
     {
       "id": "char_4124_iana",
@@ -3523,7 +3826,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "水晶箭行动"
     },
     {
       "id": "char_4125_rdoc",
@@ -3534,7 +3838,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "水晶箭行动"
     },
     {
       "id": "char_4126_fuze",
@@ -3545,7 +3850,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "水晶箭行动"
     },
     {
       "id": "char_4130_luton",
@@ -3556,7 +3862,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_4131_odda",
@@ -3569,7 +3876,8 @@
         "巴别塔"
       ],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_4132_ascln",
@@ -3582,7 +3890,8 @@
         "巴别塔"
       ],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_4133_logos",
@@ -3595,7 +3904,8 @@
         "巴别塔"
       ],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_4134_cetsyr",
@@ -3608,7 +3918,8 @@
         "巴别塔"
       ],
       "race": "未公开",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_4136_phonor",
@@ -3619,7 +3930,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_4137_udflow",
@@ -3630,7 +3942,8 @@
       "faction": "阿戈尔",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "生路"
     },
     {
       "id": "char_4138_narant",
@@ -3641,7 +3954,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "太阳甩在身后"
     },
     {
       "id": "char_4139_papyrs",
@@ -3652,7 +3966,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "太阳甩在身后"
     },
     {
       "id": "char_4140_lasher",
@@ -3663,7 +3978,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "太阳甩在身后"
     },
     {
       "id": "char_4141_marcil",
@@ -3674,7 +3990,8 @@
       "faction": "莱欧斯小队",
       "faction_hidden": [],
       "race": "精灵",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "泰拉饭"
     },
     {
       "id": "char_4142_laios",
@@ -3685,7 +4002,8 @@
       "faction": "莱欧斯小队",
       "faction_hidden": [],
       "race": "长身人（自称）",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "泰拉饭"
     },
     {
       "id": "char_4143_sensi",
@@ -3696,7 +4014,8 @@
       "faction": "莱欧斯小队",
       "faction_hidden": [],
       "race": "矮人（自称）",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "泰拉饭"
     },
     {
       "id": "char_4144_chilc",
@@ -3707,7 +4026,8 @@
       "faction": "莱欧斯小队",
       "faction_hidden": [],
       "race": "半身人（自称）",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "泰拉饭"
     },
     {
       "id": "char_4145_ulpia",
@@ -3718,7 +4038,8 @@
       "faction": "阿戈尔,深海猎人",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "生路"
     },
     {
       "id": "char_4146_nymph",
@@ -3729,7 +4050,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "熔炉“还魂”记"
     },
     {
       "id": "char_4147_mitm",
@@ -3740,7 +4062,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "熔炉“还魂”记"
     },
     {
       "id": "char_4148_philae",
@@ -3751,7 +4074,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "揭幕者们"
     },
     {
       "id": "char_4151_tinman",
@@ -3762,7 +4086,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "萨卡兹的无终奇语"
     },
     {
       "id": "char_4155_talr",
@@ -3773,7 +4098,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "揭幕者们"
     },
     {
       "id": "char_415_flint",
@@ -3784,7 +4110,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "密林悍将归来"
     },
     {
       "id": "char_4162_cathy",
@@ -3795,7 +4122,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "追迹日落以西"
     },
     {
       "id": "char_4163_rosesa",
@@ -3806,7 +4134,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "出苍白海"
     },
     {
       "id": "char_4164_tecno",
@@ -3817,7 +4146,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "杜林",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "出苍白海"
     },
     {
       "id": "char_4165_ctrail",
@@ -3828,7 +4158,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "揭幕者们"
     },
     {
       "id": "char_4166_varkis",
@@ -3839,7 +4170,8 @@
       "faction": "米诺斯",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "雅赛努斯复仇记"
     },
     {
       "id": "char_416_zumama",
@@ -3850,7 +4182,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "密林悍将归来"
     },
     {
       "id": "char_4171_wulfen",
@@ -3863,7 +4196,8 @@
         "哥伦比亚"
       ],
       "race": "斐迪亚",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "挽歌燃烧殆尽"
     },
     {
       "id": "char_4172_xingzh",
@@ -3874,7 +4208,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "相见欢"
     },
     {
       "id": "char_4173_nowell",
@@ -3885,7 +4220,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "我们明日见"
     },
     {
       "id": "char_4177_brigid",
@@ -3896,7 +4232,8 @@
       "faction": "维多利亚,塔拉",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "挽歌燃烧殆尽"
     },
     {
       "id": "char_4178_alanna",
@@ -3907,7 +4244,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "促融共竞/01"
     },
     {
       "id": "char_4179_monstr",
@@ -3918,7 +4256,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "促融共竞/01"
     },
     {
       "id": "char_4182_oblvns",
@@ -3929,7 +4268,8 @@
       "faction": "Ave Mujica",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "无忧梦呓"
     },
     {
       "id": "char_4183_mortis",
@@ -3940,7 +4280,8 @@
       "faction": "Ave Mujica",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "无忧梦呓"
     },
     {
       "id": "char_4184_dolris",
@@ -3951,7 +4292,8 @@
       "faction": "Ave Mujica",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "无忧梦呓"
     },
     {
       "id": "char_4185_amoris",
@@ -3962,7 +4304,8 @@
       "faction": "Ave Mujica",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "无忧梦呓"
     },
     {
       "id": "char_4186_tmoris",
@@ -3973,7 +4316,8 @@
       "faction": "Ave Mujica",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "无忧梦呓"
     },
     {
       "id": "char_4187_graceb",
@@ -3986,7 +4330,8 @@
         "拉特兰"
       ],
       "race": "未公开",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "众生行记"
     },
     {
       "id": "char_4188_confes",
@@ -3997,7 +4342,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "众生行记"
     },
     {
       "id": "char_4191_tippi",
@@ -4008,7 +4354,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "红丝绒"
     },
     {
       "id": "char_4193_lemuen",
@@ -4019,7 +4366,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "众生行记"
     },
     {
       "id": "char_4194_rmixer",
@@ -4030,7 +4378,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "众生行记"
     },
     {
       "id": "char_4195_radian",
@@ -4043,7 +4392,8 @@
         "乌萨斯"
       ],
       "race": "黎博利",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "岁的界园志异"
     },
     {
       "id": "char_4196_reckpr",
@@ -4054,7 +4404,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "镜中集"
     },
     {
       "id": "char_4198_christ",
@@ -4065,7 +4416,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "红丝绒"
     },
     {
       "id": "char_4199_makiri",
@@ -4076,7 +4428,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "墟"
     },
     {
       "id": "char_4202_haruka",
@@ -4087,7 +4440,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "墟"
     },
     {
       "id": "char_4203_kichi",
@@ -4098,7 +4452,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "墟"
     },
     {
       "id": "char_4204_mantra",
@@ -4112,7 +4467,8 @@
         "萨尔贡"
       ],
       "race": "斐迪亚",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "岁的界园志异"
     },
     {
       "id": "char_4207_branch",
@@ -4123,7 +4479,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "岁的界园志异"
     },
     {
       "id": "char_4208_wintim",
@@ -4134,7 +4491,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "岁的界园志异"
     },
     {
       "id": "char_420_flamtl",
@@ -4145,7 +4503,8 @@
       "faction": "卡西米尔,红松骑士团",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_4211_snhunt",
@@ -4156,7 +4515,8 @@
       "faction": "谢拉格",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "雪山降临1101"
     },
     {
       "id": "char_4212_nasti",
@@ -4167,7 +4527,8 @@
       "faction": "哥伦比亚,莱茵生命",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "未许之地"
     },
     {
       "id": "char_4213_skybx",
@@ -4178,7 +4539,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "未许之地"
     },
     {
       "id": "char_4214_cairn",
@@ -4189,7 +4551,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "未许之地"
     },
     {
       "id": "char_4215_buddy",
@@ -4200,7 +4563,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "泡影苍霆"
     },
     {
       "id": "char_4217_makoto",
@@ -4213,7 +4577,8 @@
         "拉特兰"
       ],
       "race": "未录入",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "月行水上"
     },
     {
       "id": "char_4218_aigis",
@@ -4226,7 +4591,8 @@
         "拉特兰"
       ],
       "race": "未录入",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "月行水上"
     },
     {
       "id": "char_4219_yukari",
@@ -4239,7 +4605,8 @@
         "拉特兰"
       ],
       "race": "未录入",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "月行水上"
     },
     {
       "id": "char_421_crow",
@@ -4250,7 +4617,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "多索雷斯假日"
     },
     {
       "id": "char_4220_kormr",
@@ -4263,7 +4631,8 @@
         "拉特兰"
       ],
       "race": "佩洛兽亲（据称）",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "月行水上"
     },
     {
       "id": "char_4221_ju",
@@ -4274,7 +4643,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "辞岁行"
     },
     {
       "id": "char_4222_taraxa",
@@ -4287,7 +4657,8 @@
         "萨尔贡"
       ],
       "race": "库兰塔",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "辞岁行"
     },
     {
       "id": "char_4223_botany",
@@ -4298,7 +4669,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "埃拉菲亚",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "人们，我们"
     },
     {
       "id": "char_4224_turdus",
@@ -4309,7 +4681,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "人们，我们"
     },
     {
       "id": "char_4225_tanya",
@@ -4320,7 +4693,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "乌萨斯",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "回望泰拉"
     },
     {
       "id": "char_4226_veen",
@@ -4331,7 +4705,8 @@
       "faction": "乌萨斯",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "回望泰拉"
     },
     {
       "id": "char_4227_gallus",
@@ -4342,7 +4717,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "回望泰拉"
     },
     {
       "id": "char_4228_closur",
@@ -4353,7 +4729,8 @@
       "faction": "罗德岛",
       "faction_hidden": [],
       "race": "萨卡兹",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "回望泰拉"
     },
     {
       "id": "char_4229_aphris",
@@ -4364,7 +4741,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "丛林症结"
     },
     {
       "id": "char_422_aurora",
@@ -4378,7 +4756,8 @@
         "喀兰贸易"
       ],
       "race": "乌萨斯",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "风雪过境"
     },
     {
       "id": "char_4230_mcnist",
@@ -4391,7 +4770,8 @@
         "哥伦比亚"
       ],
       "race": "埃拉菲亚",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "沉沦者的黑流树海"
     },
     {
       "id": "char_4231_clemnt",
@@ -4404,7 +4784,8 @@
         "伊比利亚"
       ],
       "race": "阿戈尔",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "昨日海"
     },
     {
       "id": "char_4232_hbound",
@@ -4415,7 +4796,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "昨日海"
     },
     {
       "id": "char_4234_pedro",
@@ -4426,7 +4808,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "丛林症结"
     },
     {
       "id": "char_4235_thumpy",
@@ -4437,7 +4820,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "直到大地变成一颗酸橙"
     },
     {
       "id": "char_4236_tmslot",
@@ -4448,7 +4832,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "阿纳缇",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "直到大地变成一颗酸橙"
     },
     {
       "id": "char_4237_jcinta",
@@ -4459,7 +4844,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "卡特斯",
-      "release_year": 2026
+      "release_year": 2026,
+      "debut": "直到大地变成一颗酸橙"
     },
     {
       "id": "char_423_blemsh",
@@ -4470,7 +4856,8 @@
       "faction": "卡西米尔",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "玛莉娅临光"
     },
     {
       "id": "char_426_billro",
@@ -4483,7 +4870,8 @@
         "萨尔贡"
       ],
       "race": "卡普里尼",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "灯火序曲"
     },
     {
       "id": "char_427_vigil",
@@ -4494,7 +4882,8 @@
       "faction": "叙拉古",
       "faction_hidden": [],
       "race": "鲁珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "黎明前奏开播纪念"
     },
     {
       "id": "char_430_fartth",
@@ -4505,7 +4894,8 @@
       "faction": "卡西米尔,红松骑士团",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "红松林"
     },
     {
       "id": "char_431_ashlok",
@@ -4516,7 +4906,8 @@
       "faction": "卡西米尔,红松骑士团",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "红松林"
     },
     {
       "id": "char_433_windft",
@@ -4527,7 +4918,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "愚人号"
     },
     {
       "id": "char_436_whispr",
@@ -4538,7 +4930,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "感谢庆典2020"
     },
     {
       "id": "char_437_mizuki",
@@ -4551,7 +4944,8 @@
         "阿戈尔"
       ],
       "race": "阿戈尔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "多索雷斯假日"
     },
     {
       "id": "char_440_pinecn",
@@ -4562,7 +4956,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "孤岛风云"
     },
     {
       "id": "char_445_wscoot",
@@ -4573,7 +4968,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "促融共竞/01"
     },
     {
       "id": "char_446_aroma",
@@ -4586,7 +4982,8 @@
         "哥伦比亚"
       ],
       "race": "鲁珀",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "巴别塔"
     },
     {
       "id": "char_449_glider",
@@ -4597,7 +4994,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_450_necras",
@@ -4608,7 +5006,8 @@
       "faction": "维多利亚,塔拉",
       "faction_hidden": [],
       "race": "德拉克",
-      "release_year": 2025
+      "release_year": 2025,
+      "debut": "挽歌燃烧殆尽"
     },
     {
       "id": "char_451_robin",
@@ -4619,7 +5018,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "阿纳缇",
-      "release_year": 2020
+      "release_year": 2020,
+      "debut": "孤岛风云"
     },
     {
       "id": "char_452_bstalk",
@@ -4630,7 +5030,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "瑞柏巴",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "此地之外"
     },
     {
       "id": "char_455_nothin",
@@ -4641,7 +5042,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "画中人"
     },
     {
       "id": "char_456_ash",
@@ -4652,7 +5054,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "源石尘行动"
     },
     {
       "id": "char_457_blitz",
@@ -4663,7 +5066,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "源石尘行动"
     },
     {
       "id": "char_458_rfrost",
@@ -4674,7 +5078,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "源石尘行动"
     },
     {
       "id": "char_459_tachak",
@@ -4685,7 +5090,8 @@
       "faction": "彩虹小队",
       "faction_hidden": [],
       "race": "未知",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "源石尘行动"
     },
     {
       "id": "char_464_cement",
@@ -4696,7 +5102,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "札拉克",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_466_qanik",
@@ -4707,7 +5114,8 @@
       "faction": "萨米",
       "faction_hidden": [],
       "race": "沃尔珀",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "黎明前奏开播纪念"
     },
     {
       "id": "char_469_indigo",
@@ -4718,7 +5126,8 @@
       "faction": "伊比利亚",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "灯火序曲"
     },
     {
       "id": "char_472_pasngr",
@@ -4729,7 +5138,8 @@
       "faction": "萨尔贡",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "遗尘漫步"
     },
     {
       "id": "char_473_mberry",
@@ -4740,7 +5150,8 @@
       "faction": "炎",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "风暴瞭望"
     },
     {
       "id": "char_474_glady",
@@ -4751,7 +5162,8 @@
       "faction": "阿戈尔,深海猎人",
       "faction_hidden": [],
       "race": "未公开",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "覆潮之下"
     },
     {
       "id": "char_475_akafyu",
@@ -4762,7 +5174,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "覆潮之下"
     },
     {
       "id": "char_476_blkngt",
@@ -4773,7 +5186,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "将进酒"
     },
     {
       "id": "char_478_kirara",
@@ -4784,7 +5198,8 @@
       "faction": "东",
       "faction_hidden": [],
       "race": "阿戈尔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "灯火序曲"
     },
     {
       "id": "char_479_sleach",
@@ -4795,7 +5210,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "瓦伊凡",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "风暴瞭望"
     },
     {
       "id": "char_484_robrta",
@@ -4806,7 +5222,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "阿纳缇",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "风暴瞭望"
     },
     {
       "id": "char_485_pallas",
@@ -4817,7 +5234,8 @@
       "faction": "米诺斯",
       "faction_hidden": [],
       "race": "丰蹄",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "荷谟伊智境"
     },
     {
       "id": "char_486_takila",
@@ -4828,7 +5246,8 @@
       "faction": "玻利瓦尔",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "多索雷斯假日"
     },
     {
       "id": "char_487_bobb",
@@ -4839,7 +5258,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "佩洛",
-      "release_year": 2024
+      "release_year": 2024,
+      "debut": "追迹日落以西"
     },
     {
       "id": "char_488_buildr",
@@ -4850,7 +5270,8 @@
       "faction": "哥伦比亚,汐斯塔",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "火山旅梦"
     },
     {
       "id": "char_489_serum",
@@ -4861,7 +5282,8 @@
       "faction": "哥伦比亚",
       "faction_hidden": [],
       "race": "斐迪亚",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_491_humus",
@@ -4874,7 +5296,8 @@
         "哥伦比亚"
       ],
       "race": "丰蹄",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_492_quercu",
@@ -4887,7 +5310,8 @@
         "维多利亚"
       ],
       "race": "菲林",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "阴云火花"
     },
     {
       "id": "char_493_firwhl",
@@ -4898,7 +5322,8 @@
       "faction": "雷姆必拓",
       "faction_hidden": [],
       "race": "黎博利",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "登临意"
     },
     {
       "id": "char_494_vendla",
@@ -4909,7 +5334,8 @@
       "faction": "维多利亚",
       "faction_hidden": [],
       "race": "菲林",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_496_wildmn",
@@ -4920,7 +5346,8 @@
       "faction": "卡西米尔,红松骑士团",
       "faction_hidden": [],
       "race": "库兰塔",
-      "release_year": 2021
+      "release_year": 2021,
+      "debut": "长夜临光"
     },
     {
       "id": "char_497_ctable",
@@ -4933,7 +5360,8 @@
         "玻利瓦尔"
       ],
       "race": "黎博利",
-      "release_year": 2022
+      "release_year": 2022,
+      "debut": "理想城长夏狂欢季"
     },
     {
       "id": "char_498_inside",
@@ -4944,7 +5372,8 @@
       "faction": "拉特兰",
       "faction_hidden": [],
       "race": "萨科塔",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "空想花庭"
     },
     {
       "id": "char_499_kaitou",
@@ -4955,7 +5384,8 @@
       "faction": "莱塔尼亚",
       "faction_hidden": [],
       "race": "卡普里尼",
-      "release_year": 2023
+      "release_year": 2023,
+      "debut": "冬隐归路开播庆祝"
     },
     {
       "id": "char_500_noirc",
@@ -4968,7 +5398,8 @@
         "东"
       ],
       "race": "鬼",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_501_durin",
@@ -4979,7 +5410,8 @@
       "faction": "罗德岛,行动组A4",
       "faction_hidden": [],
       "race": "杜林",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_502_nblade",
@@ -4992,7 +5424,8 @@
         "东"
       ],
       "race": "鬼",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     },
     {
       "id": "char_503_rang",
@@ -5003,7 +5436,8 @@
       "faction": "罗德岛,行动组A4",
       "faction_hidden": [],
       "race": "萨弗拉",
-      "release_year": 2019
+      "release_year": 2019,
+      "debut": "公测开服活动"
     }
   ],
   "retired": []

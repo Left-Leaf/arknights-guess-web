@@ -8,6 +8,8 @@ export interface Operator {
   faction_hidden: string[];
   race: string;
   release_year: number;
+  /** 实装时正在进行的活动（可能为空） */
+  debut?: string;
 }
 
 export interface Enemy {
