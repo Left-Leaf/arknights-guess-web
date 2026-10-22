@@ -165,7 +165,11 @@ h1 span { color: var(--accent); }
 .arrow-hint { display: inline-flex; align-items: center; gap: 4px; flex-shrink: 0; color: var(--faint); font-family: var(--mono); font-size: 9px; }
 .arrow-hint svg { width: 8px; height: 8px; display: block; }
 
-.page-footer { display: flex; justify-content: space-between; gap: 12px; padding: 14px 4px 0; color: var(--faint); font-family: var(--mono); font-size: 9px; letter-spacing: .3px; }
+.page-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 4px 0; color: var(--faint); font-family: var(--mono); font-size: 9px; letter-spacing: .3px; }
+.footer-links { display: inline-flex; align-items: center; gap: 12px; }
+.footer-link { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); text-decoration: none; transition: color .16s ease; }
+.footer-link:hover { color: var(--accent); }
+.footer-link svg { display: block; width: 11px; height: 11px; }
 
 @keyframes rise-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -220,6 +224,7 @@ h1 span { color: var(--accent); }
   .legend-dot { width: 10px; height: 10px; font-size: 6px; }
   .arrow-hint { display: none; }
   .page-footer { flex-direction: column; gap: 3px; padding-top: 10px; font-size: 8px; }
+  .footer-links { gap: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
