@@ -248,7 +248,7 @@ function formatLimit(limit: number): string {
 }
 
 function statusInfo(config: ModeConfig, session: GameSession | null): { text: string; kind: "playing" | "won" | "lost" } {
-  if (!session) return { text: `选择一名${config.noun}，开始本局推演。`, kind: "playing" };
+  if (!session) return { text: `输入${config.noun}名，开始新的一局。`, kind: "playing" };
   if (session.status === "won" || session.status === "lost") {
     const answer = itemOf(config, session.answerId);
     const detail = answer ? config.answerLine(answer) : "未知";
@@ -348,9 +348,10 @@ function renderGame(config: ModeConfig): void {
   const maxAttempts = session?.maxAttempts ?? state.settings.maxAttempts;
   const progress = `${attempts} / ${formatLimit(maxAttempts)}`;
   const status = statusInfo(config, session);
-  const action = isPlaying
-    ? `<form id="guess-form" class="guess-form" autocomplete="off"><label for="item-search">提交${config.noun}</label><div class="search-wrap"><input id="item-search" name="item" type="search" placeholder="输入${config.noun}名称" aria-label="${config.noun}名称" aria-autocomplete="list" aria-controls="suggestions" /><button type="submit" aria-label="提交猜测">猜测 <span aria-hidden="true">→</span></button></div><div id="suggestions" class="suggestions" role="listbox"></div><p class="form-hint">可输入部分名称，再从候选中选择。</p></form>`
-    : `<button class="start-button" id="start-game">${isFinished ? "再开一局" : "开始推演"}<span aria-hidden="true">→</span></button>${isFinished ? `<button class="quiet-button" id="clear-game">清除本局记录</button>` : ""}`;
+  const guessForm = `<form id="guess-form" class="guess-form" autocomplete="off"><label for="item-search">提交${config.noun}</label><div class="search-wrap"><input id="item-search" name="item" type="search" placeholder="输入${config.noun}名称" aria-label="${config.noun}名称" aria-autocomplete="list" aria-controls="suggestions" /><button type="submit" aria-label="提交猜测">猜测 <span aria-hidden="true">→</span></button></div><div id="suggestions" class="suggestions" role="listbox"></div><p class="form-hint">可输入部分名称，再从候选中选择。</p></form>`;
+  const action = isFinished
+    ? `<button class="start-button" id="restart-game">再开一局<span aria-hidden="true">→</span></button>`
+    : guessForm;
 
   const colsTemplate = `minmax(96px, 190px) ${config.fields.map((field) => `${field.weight}fr`).join(" ")}`;
 
@@ -404,10 +405,10 @@ function bindGameEvents(config: ModeConfig): void {
     state.selectedId = "";
     render();
   });
-  document.querySelector<HTMLButtonElement>("#start-game")?.addEventListener("click", () => newSession(config, ""));
   document.querySelector<HTMLButtonElement>("#restart-game")?.addEventListener("click", () => {
-    if (!window.confirm("重开本局？当前猜测进度将被清除。")) return;
-    newSession(config, "");
+    const playing = state.sessions[config.mode]?.status === "playing";
+    if (playing && !window.confirm("结束本局？当前猜测进度将被清除。")) return;
+    endSession(config, playing ? "已结束本局，输入名称开始新的一局。" : "");
   });
   document.querySelector<HTMLButtonElement>("#open-settings")?.addEventListener("click", openSettings);
   const dialog = document.querySelector<HTMLDialogElement>("#settings-dialog");
@@ -429,12 +430,6 @@ function bindGameEvents(config: ModeConfig): void {
     updateProgressPreview();
   });
   updateSettingsError();
-  document.querySelector<HTMLButtonElement>("#clear-game")?.addEventListener("click", () => {
-    state.sessions[config.mode] = null;
-    state.notice = "本局记录已清除。";
-    save();
-    render();
-  });
   document.querySelector<HTMLFormElement>("#guess-form")?.addEventListener("submit", (event) =>
     handleGuess(event, config),
   );
@@ -482,26 +477,8 @@ function updateProgressPreview(): void {
   if (target) target.textContent = `0 / ${formatLimit(state.settings.maxAttempts)}`;
 }
 
-function newSession(config: ModeConfig, notice: string): void {
-  readSettingsFromDom();
-  const invalid = config.hasRarity
-    ? validateSettings(state.settings)
-    : validateAttemptLimit(state.settings.maxAttempts);
-  if (invalid) {
-    state.notice = invalid;
-    render();
-    openSettings();
-    return;
-  }
-  try {
-    state.sessions[config.mode] = config.create(state.settings);
-  } catch (error) {
-    state.notice = error instanceof Error ? error.message : "无法开始游戏。";
-    render();
-    openSettings();
-    return;
-  }
-  state.stats[config.mode].gamesPlayed += 1;
+function endSession(config: ModeConfig, notice: string): void {
+  state.sessions[config.mode] = null;
   state.notice = notice;
   state.selectedId = "";
   save();
@@ -563,17 +540,32 @@ function handleGuess(event: SubmitEvent, config: ModeConfig): void {
     return;
   }
   const session = state.sessions[config.mode];
-  if (!session) return;
-  const wasPlaying = session.status === "playing";
   try {
-    const next = config.submit(session, guess);
+    let active = session;
+    if (!active) {
+      // 首次提交时才创建新对局，避免空点“重新开始”就消耗一局
+      readSettingsFromDom();
+      const invalid = config.hasRarity
+        ? validateSettings(state.settings)
+        : validateAttemptLimit(state.settings.maxAttempts);
+      if (invalid) {
+        state.notice = invalid;
+        render();
+        openSettings();
+        return;
+      }
+      active = config.create(state.settings);
+      state.sessions[config.mode] = active;
+      state.stats[config.mode].gamesPlayed += 1;
+    }
+    const next = config.submit(active, guess);
     state.sessions[config.mode] = next;
     const stats = state.stats[config.mode];
-    if (wasPlaying && next.status === "won") {
+    if (next.status === "won") {
       stats.gamesWon += 1;
       stats.currentStreak += 1;
       stats.bestStreak = Math.max(stats.bestStreak, stats.currentStreak);
-    } else if (wasPlaying && next.status === "lost") {
+    } else if (next.status === "lost") {
       stats.currentStreak = 0;
     }
     state.notice = "";
