@@ -210,12 +210,42 @@ function itemOf(config: ModeConfig, id: string): Item | undefined {
   return config.mode === "operator" ? operatorsById.get(id) : enemiesById.get(id);
 }
 
-function stateMark(fieldState: string): string {
-  if (fieldState === "correct") return "√";
-  if (fieldState === "close") return "~";
-  if (fieldState === "higher") return "↑";
-  if (fieldState === "lower") return "↓";
-  return "×";
+const STATE_ICONS: Record<string, string> = {
+  correct:
+    '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.3 8.5 6.4 11.5 12.7 5.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  close:
+    '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="4.9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 3.1a4.9 4.9 0 0 1 0 9.8z" fill="currentColor"/></svg>',
+  higher:
+    '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 12.6V4.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4.3 7.6 8 3.9l3.7 3.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  lower:
+    '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 3.4v8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4.3 8.4 8 12.1l3.7-3.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  wrong:
+    '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+};
+
+const STATE_LABELS: Record<string, string> = {
+  correct: "完全正确",
+  close: "部分命中",
+  higher: "答案更高或更晚",
+  lower: "答案更低或更早",
+  wrong: "错误",
+};
+
+const ICON_SETTINGS =
+  '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2.6 4.6h10.8M2.6 8h10.8M2.6 11.4h10.8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="5.8" cy="4.6" r="1.5" fill="currentColor"/><circle cx="10.2" cy="8" r="1.5" fill="currentColor"/><circle cx="5.8" cy="11.4" r="1.5" fill="currentColor"/></svg>';
+
+const ICON_CLOSE =
+  '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4.2 4.2l7.6 7.6M11.8 4.2l-7.6 7.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+
+const ICON_ARROW_RIGHT =
+  '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.2 8h9.2M8.8 4.2 12.6 8l-3.8 3.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+const ICON_ARROW_LEFT =
+  '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M12.8 8H3.6M7.2 4.2 3.4 8l3.8 3.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+function stateIcon(fieldState: string): string {
+  const icon = STATE_ICONS[fieldState] ?? STATE_ICONS.wrong;
+  return `<i class="cell-icon" role="img" aria-label="${STATE_LABELS[fieldState] ?? STATE_LABELS.wrong}">${icon}</i>`;
 }
 
 function renderRows(config: ModeConfig, session: GameSession | null): string {
@@ -230,10 +260,7 @@ function renderRows(config: ModeConfig, session: GameSession | null): string {
         .map((field) => {
           const fieldState = guess.result[field.key] ?? "wrong";
           const value = escapeHtml(field.value(item));
-          const main =
-            fieldState === "higher" || fieldState === "lower"
-              ? `${value} ${stateMark(fieldState)}`
-              : `${stateMark(fieldState)} ${value}`;
+          const main = `${stateIcon(fieldState)}<span class="cell-text">${value}</span>`;
           const sub = field.sub(item, fieldState);
           return `<div class="result-cell tone-${fieldState}"><span class="cell-main">${main}</span>${sub ? `<span class="cell-sub">${escapeHtml(sub)}</span>` : ""}</div>`;
         })
@@ -281,7 +308,7 @@ function settingsDialogMarkup(config: ModeConfig): string {
   return `
     <dialog class="settings-dialog" id="settings-dialog">
       <form method="dialog" class="settings-form">
-        <div class="settings-head"><strong>游戏设置</strong><button class="settings-close" type="submit" aria-label="关闭">×</button></div>
+        <div class="settings-head"><strong>游戏设置</strong><button class="settings-close" type="submit" aria-label="关闭">${ICON_CLOSE}</button></div>
         ${rarityBlock}
         <div class="setting-row">
           <label class="setting-label" for="max-attempts">最大猜测次数</label>
@@ -309,7 +336,7 @@ function renderHome(): void {
         <strong>${config.title}</strong>
         <span class="mode-desc">${config.description}</span>
         ${badge}
-        <span class="mode-cta">进入 →</span>
+        <span class="mode-cta">进入 ${ICON_ARROW_RIGHT}</span>
       </button>`;
     })
     .join("");
@@ -348,9 +375,9 @@ function renderGame(config: ModeConfig): void {
   const maxAttempts = session?.maxAttempts ?? state.settings.maxAttempts;
   const progress = `${attempts} / ${formatLimit(maxAttempts)}`;
   const status = statusInfo(config, session);
-  const guessForm = `<form id="guess-form" class="guess-form" autocomplete="off"><label for="item-search">提交${config.noun}</label><div class="search-wrap"><input id="item-search" name="item" type="search" placeholder="输入${config.noun}名称" aria-label="${config.noun}名称" aria-autocomplete="list" aria-controls="suggestions" /><button type="submit" aria-label="提交猜测">猜测 <span aria-hidden="true">→</span></button></div><div id="suggestions" class="suggestions" role="listbox"></div><p class="form-hint">可输入部分名称，再从候选中选择。</p></form>`;
+  const guessForm = `<form id="guess-form" class="guess-form" autocomplete="off"><label for="item-search">提交${config.noun}</label><div class="search-wrap"><input id="item-search" name="item" type="search" placeholder="输入${config.noun}名称" aria-label="${config.noun}名称" aria-autocomplete="list" aria-controls="suggestions" /><button type="submit" aria-label="提交猜测">猜测 <span class="button-arrow">${ICON_ARROW_RIGHT}</span></button></div><div id="suggestions" class="suggestions" role="listbox"></div><p class="form-hint">可输入部分名称，再从候选中选择。</p></form>`;
   const action = isFinished
-    ? `<button class="start-button" id="restart-game">再开一局<span aria-hidden="true">→</span></button>`
+    ? `<button class="start-button" id="restart-game">再开一局<span class="button-arrow">${ICON_ARROW_RIGHT}</span></button>`
     : guessForm;
 
   const colsTemplate = `minmax(96px, 190px) ${config.fields.map((field) => `${field.weight}fr`).join(" ")}`;
@@ -360,7 +387,7 @@ function renderGame(config: ModeConfig): void {
       <main class="game-card">
         <header class="card-head">
           <div><p class="kicker">ARKNIGHTS · GUESS</p><h1>明日方舟 <span>${config.title}</span></h1></div>
-          <div class="card-meta"><div class="meta-row"><button class="back-button" id="back-home" type="button">← 返回</button><span class="game-id">${gameCode(session)}</span><button class="settings-button" id="open-settings" type="button" aria-label="游戏设置">⚙<span>设置</span></button>${isPlaying ? `<button class="restart-button" id="restart-game" type="button">重新开始</button>` : ""}</div><strong class="progress">${progress}</strong></div>
+          <div class="card-meta"><div class="meta-row"><button class="back-button" id="back-home" type="button"><span class="button-arrow">${ICON_ARROW_LEFT}</span>返回</button><span class="game-id">${gameCode(session)}</span><button class="settings-button" id="open-settings" type="button" aria-label="游戏设置">${ICON_SETTINGS}<span>设置</span></button>${isPlaying ? `<button class="restart-button" id="restart-game" type="button">重新开始</button>` : ""}</div><strong class="progress">${progress}</strong></div>
         </header>
         <hr class="card-rule" />
 
@@ -379,8 +406,8 @@ function renderGame(config: ModeConfig): void {
         <div class="status-bar status-${status.kind}">${escapeHtml(status.text)}</div>
 
         <div class="card-footer">
-          <div class="legend"><span><i class="legend-dot correct">√</i>完全正确</span><span><i class="legend-dot close">~</i>部分命中</span><span><i class="legend-dot direction">↑↓</i>方向提示</span><span><i class="legend-dot wrong">×</i>错误</span></div>
-          <span class="arrow-hint">↑ 答案更高 / 更晚　↓ 答案更低 / 更早</span>
+          <div class="legend"><span><i class="legend-dot correct">${STATE_ICONS.correct}</i>完全正确</span><span><i class="legend-dot close">${STATE_ICONS.close}</i>部分命中</span><span><i class="legend-dot direction">${STATE_ICONS.higher}${STATE_ICONS.lower}</i>方向提示</span><span><i class="legend-dot wrong">${STATE_ICONS.wrong}</i>错误</span></div>
+          <span class="arrow-hint">${STATE_ICONS.higher}答案更高 / 更晚 ${STATE_ICONS.lower}答案更低 / 更早</span>
         </div>
       </main>
       ${settingsDialogMarkup(config)}
