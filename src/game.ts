@@ -10,23 +10,35 @@ export interface Operator {
   release_year: number;
 }
 
-export type FieldState = "correct" | "close" | "wrong" | "higher" | "lower";
-export type GameStatus = "playing" | "won" | "lost";
-
-export interface GuessResult {
-  rarity: FieldState;
-  subclass: FieldState;
-  faction: FieldState;
-  race: FieldState;
-  release_year: FieldState;
+export interface Enemy {
+  id: string;
+  name: string;
+  level: string;
+  endure: string;
+  attack: string;
+  defence: string;
+  resistance: string;
+  debut: string;
+  debut_order: number;
+  sort_id: number;
+  enemy_race: string;
+  attack_type: string;
+  damage_type: string;
+  motion: string;
 }
 
+export type GameMode = "operator" | "enemy";
+export type FieldState = "correct" | "close" | "wrong" | "higher" | "lower";
+export type FieldStateMap = Record<string, FieldState>;
+export type GameStatus = "playing" | "won" | "lost";
+
 export interface GuessRecord {
-  operatorId: string;
-  result: GuessResult;
+  guessId: string;
+  result: FieldStateMap;
 }
 
 export interface GameSession {
+  mode: GameMode;
   answerId: string;
   guesses: GuessRecord[];
   maxAttempts: number;
@@ -48,15 +60,34 @@ export interface GameSettings {
 }
 
 export interface SavedGameData {
-  version: 1;
-  session: GameSession | null;
-  stats: LocalStats;
-  settings?: GameSettings;
+  version: 2;
+  sessions: Record<GameMode, GameSession | null>;
+  stats: Record<GameMode, LocalStats>;
+  settings: GameSettings;
 }
 
 export const MAX_ATTEMPTS = 8;
 export const RARITIES = [1, 2, 3, 4, 5, 6] as const;
-export const STORAGE_KEY = "ark-operator-guess:v1";
+export const STORAGE_KEY = "ark-operator-guess:v2";
+
+export const GRADE_RANK: Record<string, number> = {
+  E: 1,
+  D: 2,
+  C: 3,
+  B: 4,
+  "B+": 5,
+  A: 6,
+  "A+": 7,
+  S: 8,
+  "S+": 9,
+  SS: 10,
+};
+
+export const LEVEL_RANK: Record<string, number> = {
+  普通: 1,
+  精英: 2,
+  领袖: 3,
+};
 
 export function defaultSettings(): GameSettings {
   return { rarities: [...RARITIES], maxAttempts: MAX_ATTEMPTS };
@@ -79,18 +110,18 @@ export function normalizeSettings(value: unknown): GameSettings {
   return { rarities, maxAttempts };
 }
 
+export function validateAttemptLimit(value: number): string | null {
+  if (!Number.isInteger(value) || value === 0 || value < -1) {
+    return "最大猜测次数必须为正整数，或 -1（不限次数）。";
+  }
+  return null;
+}
+
 export function validateSettings(settings: GameSettings): string | null {
   if (!settings.rarities.length) {
     return "请至少选择一个答案稀有度。";
   }
-  if (
-    !Number.isInteger(settings.maxAttempts) ||
-    settings.maxAttempts === 0 ||
-    settings.maxAttempts < -1
-  ) {
-    return "最大猜测次数必须为正整数，或 -1（不限次数）。";
-  }
-  return null;
+  return validateAttemptLimit(settings.maxAttempts);
 }
 
 export function splitFactions(value: string): Set<string> {
@@ -111,7 +142,12 @@ function compareNumber(guess: number, answer: number): FieldState {
   return guess < answer ? "higher" : "lower";
 }
 
-export function compareOperators(guess: Operator, answer: Operator): GuessResult {
+function compareRank(guess: number | undefined, answer: number | undefined): FieldState {
+  if (guess === undefined || answer === undefined) return "wrong";
+  return compareNumber(guess, answer);
+}
+
+export function compareOperators(guess: Operator, answer: Operator): FieldStateMap {
   const subclass: FieldState =
     guess.profession.trim() !== answer.profession.trim()
       ? "wrong"
@@ -138,28 +174,55 @@ export function compareOperators(guess: Operator, answer: Operator): GuessResult
   };
 }
 
+export function compareEnemies(guess: Enemy, answer: Enemy): FieldStateMap {
+  const debut: FieldState =
+    guess.debut.trim() === answer.debut.trim()
+      ? "correct"
+      : compareNumber(guess.debut_order ?? 0, answer.debut_order ?? 0);
+
+  return {
+    level: compareRank(LEVEL_RANK[guess.level.trim()], LEVEL_RANK[answer.level.trim()]),
+    endure: compareRank(GRADE_RANK[guess.endure.trim().toUpperCase()], GRADE_RANK[answer.endure.trim().toUpperCase()]),
+    attack: compareRank(GRADE_RANK[guess.attack.trim().toUpperCase()], GRADE_RANK[answer.attack.trim().toUpperCase()]),
+    defence: compareRank(GRADE_RANK[guess.defence.trim().toUpperCase()], GRADE_RANK[answer.defence.trim().toUpperCase()]),
+    resistance: compareRank(GRADE_RANK[guess.resistance.trim().toUpperCase()], GRADE_RANK[answer.resistance.trim().toUpperCase()]),
+    debut,
+  };
+}
+
 export interface CreateGameOptions {
   settings?: GameSettings;
   random?: () => number;
   now?: number;
 }
 
-export function createGame(operators: Operator[], options: CreateGameOptions = {}): GameSession {
-  if (operators.length === 0) throw new Error("题库为空，无法开始游戏。");
+interface SessionSpec<T> {
+  mode: GameMode;
+  candidates: (items: T[], settings: GameSettings) => T[];
+  compare: (guess: T, answer: T) => FieldStateMap;
+}
+
+function createSession<T extends { id: string; name: string }>(
+  items: T[],
+  spec: SessionSpec<T>,
+  options: CreateGameOptions = {},
+): GameSession {
+  if (items.length === 0) throw new Error("题库为空，无法开始游戏。");
   const settings = normalizeSettings(options.settings ?? defaultSettings());
-  const invalid = validateSettings(settings);
+  const invalid =
+    spec.mode === "operator" ? validateSettings(settings) : validateAttemptLimit(settings.maxAttempts);
   if (invalid) throw new Error(invalid);
 
-  const candidates = operators.filter((operator) => settings.rarities.includes(operator.rarity));
+  const candidates = spec.candidates(items, settings);
   if (candidates.length === 0) {
     throw new Error("当前稀有度设置下没有可作为答案的干员。");
   }
 
   const random = options.random ?? Math.random;
   const index = Math.min(candidates.length - 1, Math.floor(random() * candidates.length));
-  const answer = candidates[index];
   return {
-    answerId: answer.id,
+    mode: spec.mode,
+    answerId: candidates[index].id,
     guesses: [],
     maxAttempts: settings.maxAttempts,
     status: "playing",
@@ -167,20 +230,21 @@ export function createGame(operators: Operator[], options: CreateGameOptions = {
   };
 }
 
-export function submitGuess(
+function submit<T extends { id: string; name: string }>(
   session: GameSession,
-  guess: Operator,
-  operatorsById: Map<string, Operator>,
-  now = Date.now(),
+  guess: T,
+  byId: Map<string, T>,
+  compare: (guess: T, answer: T) => FieldStateMap,
+  now: number,
 ): GameSession {
   if (session.status !== "playing") throw new Error("本局已经结束，请开始新一局。");
-  if (session.guesses.some((record) => record.operatorId === guess.id)) {
+  if (session.guesses.some((record) => record.guessId === guess.id)) {
     throw new Error(`「${guess.name}」已经猜过了。`);
   }
-  const answer = operatorsById.get(session.answerId);
+  const answer = byId.get(session.answerId);
   if (!answer) throw new Error("本局答案无效，请刷新页面重新开始。");
 
-  const guesses = [...session.guesses, { operatorId: guess.id, result: compareOperators(guess, answer) }];
+  const guesses = [...session.guesses, { guessId: guess.id, result: compare(guess, answer) }];
   const limitReached = session.maxAttempts > 0 && guesses.length >= session.maxAttempts;
   const status: GameStatus = guess.id === answer.id ? "won" : limitReached ? "lost" : "playing";
   return {
@@ -191,22 +255,72 @@ export function submitGuess(
   };
 }
 
+const OPERATOR_SPEC: SessionSpec<Operator> = {
+  mode: "operator",
+  candidates: (items, settings) => items.filter((item) => settings.rarities.includes(item.rarity)),
+  compare: compareOperators,
+};
+
+const ENEMY_SPEC: SessionSpec<Enemy> = {
+  mode: "enemy",
+  candidates: (items) => items,
+  compare: compareEnemies,
+};
+
+export function createGame(operators: Operator[], options: CreateGameOptions = {}): GameSession {
+  return createSession(operators, OPERATOR_SPEC, options);
+}
+
+export function createEnemyGame(enemies: Enemy[], options: CreateGameOptions = {}): GameSession {
+  return createSession(enemies, ENEMY_SPEC, options);
+}
+
+export function submitGuess(
+  session: GameSession,
+  guess: Operator,
+  operatorsById: Map<string, Operator>,
+  now = Date.now(),
+): GameSession {
+  return submit(session, guess, operatorsById, compareOperators, now);
+}
+
+export function submitEnemyGuess(
+  session: GameSession,
+  guess: Enemy,
+  enemiesById: Map<string, Enemy>,
+  now = Date.now(),
+): GameSession {
+  return submit(session, guess, enemiesById, compareEnemies, now);
+}
+
 export function defaultStats(): LocalStats {
   return { gamesPlayed: 0, gamesWon: 0, currentStreak: 0, bestStreak: 0 };
 }
 
-export function searchOperators(operators: Operator[], query: string, limit = 8): Operator[] {
+export function defaultStatsByMode(): Record<GameMode, LocalStats> {
+  return { operator: defaultStats(), enemy: defaultStats() };
+}
+
+function searchItems<T extends { id: string; name: string }>(items: T[], query: string, limit: number): T[] {
   const term = query.trim().toLocaleLowerCase();
   if (!term) return [];
-  return operators
-    .map((operator) => {
-      const name = operator.name.toLocaleLowerCase();
-      const id = operator.id.toLocaleLowerCase();
+  return items
+    .map((item) => {
+      const name = item.name.toLocaleLowerCase();
+      const id = item.id.toLocaleLowerCase();
       const rank = name === term || id === term ? 0 : name.startsWith(term) ? 1 : name.includes(term) || id.includes(term) ? 2 : 3;
-      return { operator, rank, matches: rank < 3 };
+      return { item, rank, matches: rank < 3 };
     })
     .filter((entry) => entry.matches)
-    .sort((left, right) => left.rank - right.rank || left.operator.name.localeCompare(right.operator.name, "zh-CN"))
+    .sort((left, right) => left.rank - right.rank || left.item.name.localeCompare(right.item.name, "zh-CN"))
     .slice(0, limit)
-    .map((entry) => entry.operator);
+    .map((entry) => entry.item);
+}
+
+export function searchOperators(operators: Operator[], query: string, limit = 8): Operator[] {
+  return searchItems(operators, query, limit);
+}
+
+export function searchEnemies(enemies: Enemy[], query: string, limit = 8): Enemy[] {
+  return searchItems(enemies, query, limit);
 }

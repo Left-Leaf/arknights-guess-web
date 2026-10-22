@@ -1,12 +1,17 @@
 import { describe, expect, it } from "vitest";
 import {
+  compareEnemies,
   compareOperators,
+  createEnemyGame,
   createGame,
   defaultSettings,
   defaultStats,
   normalizeSettings,
+  searchEnemies,
+  submitEnemyGuess,
   submitGuess,
   validateSettings,
+  type Enemy,
   type Operator,
 } from "./game";
 
@@ -111,5 +116,83 @@ describe("game session", () => {
 
   it("creates empty local stats", () => {
     expect(defaultStats()).toEqual({ gamesPlayed: 0, gamesWon: 0, currentStreak: 0, bestStreak: 0 });
+  });
+});
+
+const makeEnemy = (overrides: Partial<Enemy> = {}): Enemy => ({
+  id: "enemy_answer",
+  name: "霜星",
+  level: "领袖",
+  endure: "S",
+  attack: "A",
+  defence: "D",
+  resistance: "S",
+  debut: "主线第五章",
+  debut_order: 6,
+  sort_id: 80,
+  enemy_race: "感染生物",
+  attack_type: "近战",
+  damage_type: "法术",
+  motion: "地面",
+  ...overrides,
+});
+
+const enemyAnswer = makeEnemy();
+const enemyGuess = makeEnemy({
+  id: "enemy_guess",
+  name: "源石虫",
+  level: "普通",
+  endure: "E",
+  attack: "E",
+  defence: "E",
+  resistance: "E",
+  debut: "初始",
+  debut_order: 0,
+  sort_id: 1,
+});
+
+it("compares six enemy fields", () => {
+  expect(compareEnemies(enemyGuess, enemyAnswer)).toEqual({
+    level: "higher",
+    endure: "higher",
+    attack: "higher",
+    defence: "higher",
+    resistance: "higher",
+    debut: "higher",
+  });
+});
+
+it("treats same debut activity as correct even with different sort ids", () => {
+  const first = makeEnemy({ id: "e1", debut: "将进酒", debut_order: 30, sort_id: 383 });
+  const second = makeEnemy({ id: "e2", debut: "将进酒", debut_order: 30, sort_id: 416 });
+  expect(compareEnemies(first, second).debut).toBe("correct");
+});
+
+describe("enemy game session", () => {
+  const enemies = [enemyAnswer, enemyGuess];
+  const byId = new Map(enemies.map((item) => [item.id, item]));
+
+  it("starts a game without rarity filtering", () => {
+    const session = createEnemyGame(enemies, {
+      settings: { rarities: [6], maxAttempts: 5 },
+      random: () => 0,
+    });
+    expect(session.mode).toBe("enemy");
+    expect(session.answerId).toBe(enemyAnswer.id);
+    expect(session.maxAttempts).toBe(5);
+  });
+
+  it("wins on the correct enemy and rejects duplicates", () => {
+    const session = createEnemyGame(enemies, { random: () => 0 });
+    const wrong = submitEnemyGuess(session, enemyGuess, byId);
+    expect(wrong.status).toBe("playing");
+    expect(wrong.guesses[0].result.level).toBe("higher");
+    expect(() => submitEnemyGuess(wrong, enemyGuess, byId)).toThrow("已经猜过了");
+    expect(submitEnemyGuess(wrong, enemyAnswer, byId).status).toBe("won");
+  });
+
+  it("searches enemies by partial name", () => {
+    expect(searchEnemies(enemies, "霜").map((item) => item.name)).toEqual(["霜星"]);
+    expect(searchEnemies(enemies, "   ")).toEqual([]);
   });
 });
