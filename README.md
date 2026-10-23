@@ -4,6 +4,12 @@
 
 在线游玩：https://left-leaf.github.io/arknights-guess-web/
 
+## 数据来源
+
+- 干员与敌人数据均来自 [PRTS Wiki](https://prts.wiki)（明日方舟中文维基），按其 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议署名使用。
+- 本项目为非营利的爱好者作品，与鹰角网络、PRTS 均无隶属关系，游戏素材版权归原权利人所有。
+- 页面底部标注了 `Based on PRTS Wiki` 并链接至 PRTS 官网。
+
 ## 功能
 
 - 首页选择题库：猜干员或猜敌人，两者各自保存进度与战绩。
