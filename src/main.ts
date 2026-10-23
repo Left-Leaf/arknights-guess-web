@@ -358,7 +358,7 @@ function renderHome(): void {
         <hr class="card-rule" />
         <p class="home-lead">选择一个题库开始。每次猜测都会给出维度提示，逐步锁定答案。</p>
         <div class="mode-grid">${cards}</div>
-        <p class="home-note">干员为五维判定；敌人为六维判定，实装一列显示登场活动。</p>
+        <p class="home-note">干员为五维判定；敌人为六维判定。</p>
       </main>
       <footer class="page-footer"><span>记录保存在此浏览器 · 数据来源：PRTS</span>${githubLink()}</footer>
     </div>`;
