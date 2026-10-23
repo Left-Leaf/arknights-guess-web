@@ -251,7 +251,7 @@ function githubLink(): string {
 }
 
 function prtsLink(): string {
-  return `<a class="footer-link footer-source" href="https://prts.wiki" target="_blank" rel="noopener noreferrer" aria-label="Data sourced from PRTS Wiki" title="Data sourced from PRTS Wiki">Data sourced from PRTS Wiki</a>`;
+  return `<a class="footer-link footer-source" href="https://prts.wiki" target="_blank" rel="noopener noreferrer" aria-label="Based on PRTS Wiki" title="Based on PRTS Wiki">Based on PRTS Wiki</a>`;
 }
 
 function stateIcon(fieldState: string): string {
