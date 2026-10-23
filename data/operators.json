@@ -1,6 +1,6 @@
 {
-  "version": "20261023.5",
-  "updatedAt": "2026-10-23T05:00:21.834Z",
+  "version": "20261023.6",
+  "updatedAt": "2026-10-23T05:08:04.612Z",
   "operators": [
     {
       "id": "char_002_amiya",
@@ -299,7 +299,7 @@
       ],
       "race": "鲁珀",
       "release_year": 2022,
-      "debut": "黎明前奏开播纪念"
+      "debut": "叙拉古人"
     },
     {
       "id": "char_1029_yato2",
@@ -405,7 +405,7 @@
       ],
       "race": "萨卡兹",
       "release_year": 2024,
-      "debut": "巴别塔"
+      "debut": "慈悲灯塔"
     },
     {
       "id": "char_1036_fang2",
@@ -419,7 +419,7 @@
       ],
       "race": "库兰塔",
       "release_year": 2024,
-      "debut": "巴别塔"
+      "debut": "慈悲灯塔"
     },
     {
       "id": "char_1037_amiya3",
@@ -434,7 +434,7 @@
       ],
       "race": "卡特斯/奇美拉",
       "release_year": 2024,
-      "debut": "巴别塔"
+      "debut": "慈悲灯塔"
     },
     {
       "id": "char_1038_whitw2",
@@ -641,7 +641,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2026,
-      "debut": "回望泰拉"
+      "debut": "共贺庆典"
     },
     {
       "id": "char_106_franka",
@@ -727,7 +727,7 @@
       ],
       "race": "萨卡兹",
       "release_year": 2020,
-      "debut": "生于黑夜"
+      "debut": "一周年庆典"
     },
     {
       "id": "char_115_headbr",
@@ -1123,7 +1123,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2023,
-      "debut": "水月与深蓝之树"
+      "debut": "惊霆无声"
     },
     {
       "id": "char_155_tiger",
@@ -1147,7 +1147,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2022,
-      "debut": "水月与深蓝之树"
+      "debut": "淬火尘霾"
     },
     {
       "id": "char_158_milu",
@@ -1916,7 +1916,7 @@
       "faction_hidden": [],
       "race": "萨科塔",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "崔林特尔梅之金"
     },
     {
       "id": "char_248_mgllan",
@@ -2767,7 +2767,7 @@
       "faction_hidden": [],
       "race": "未知",
       "release_year": 2020,
-      "debut": "生于黑夜"
+      "debut": "一周年庆典"
     },
     {
       "id": "char_377_gdglow",
@@ -2827,7 +2827,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2020,
-      "debut": "跨年纪念"
+      "debut": "洪炉示岁"
     },
     {
       "id": "char_385_finlpp",
@@ -2953,7 +2953,7 @@
       ],
       "race": "阿戈尔",
       "release_year": 2020,
-      "debut": "生于黑夜"
+      "debut": "一周年庆典"
     },
     {
       "id": "char_4010_etlchi",
@@ -2979,7 +2979,7 @@
       "faction_hidden": [],
       "race": "卡普里尼",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "崔林特尔梅之金"
     },
     {
       "id": "char_4013_kjera",
@@ -3006,7 +3006,7 @@
       "faction_hidden": [],
       "race": "鲁珀",
       "release_year": 2022,
-      "debut": "黎明前奏开播纪念"
+      "debut": "叙拉古人"
     },
     {
       "id": "char_4015_spuria",
@@ -3070,7 +3070,7 @@
       ],
       "race": "黎博利",
       "release_year": 2020,
-      "debut": "生于黑夜"
+      "debut": "一周年庆典"
     },
     {
       "id": "char_4023_rfalcn",
@@ -3082,7 +3082,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2024,
-      "debut": "怀黍离"
+      "debut": "沙洲遗闻"
     },
     {
       "id": "char_4025_aprot2",
@@ -3192,7 +3192,7 @@
       "faction_hidden": [],
       "race": "鲁珀",
       "release_year": 2022,
-      "debut": "傀影与猩红孤钻"
+      "debut": "破碎日冕"
     },
     {
       "id": "char_4040_rockr",
@@ -3204,7 +3204,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2022,
-      "debut": "傀影与猩红孤钻"
+      "debut": "破碎日冕"
     },
     {
       "id": "char_4041_chnut",
@@ -3216,7 +3216,7 @@
       "faction_hidden": [],
       "race": "杜林",
       "release_year": 2022,
-      "debut": "傀影与猩红孤钻"
+      "debut": "破碎日冕"
     },
     {
       "id": "char_4042_lumen",
@@ -3240,7 +3240,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2022,
-      "debut": "愚人号"
+      "debut": "危机合约/渊默行动"
     },
     {
       "id": "char_4045_heidi",
@@ -3252,7 +3252,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2022,
-      "debut": "傀影与猩红孤钻"
+      "debut": "破碎日冕"
     },
     {
       "id": "char_4046_ebnhlz",
@@ -3388,7 +3388,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2022,
-      "debut": "水月与深蓝之树"
+      "debut": "淬火尘霾"
     },
     {
       "id": "char_4063_quartz",
@@ -3400,7 +3400,7 @@
       "faction_hidden": [],
       "race": "鲁珀",
       "release_year": 2022,
-      "debut": "黎明前奏开播纪念"
+      "debut": "叙拉古人"
     },
     {
       "id": "char_4064_mlynar",
@@ -3424,7 +3424,7 @@
       "faction_hidden": [],
       "race": "鲁珀",
       "release_year": 2022,
-      "debut": "黎明前奏开播纪念"
+      "debut": "叙拉古人"
     },
     {
       "id": "char_4066_highmo",
@@ -3436,7 +3436,7 @@
       "faction_hidden": [],
       "race": "阿戈尔",
       "release_year": 2022,
-      "debut": "长夜临光复刻"
+      "debut": "水月与深蓝之树"
     },
     {
       "id": "char_4067_lolxh",
@@ -3460,7 +3460,7 @@
       "faction_hidden": [],
       "race": "萨卡兹",
       "release_year": 2022,
-      "debut": "水月与深蓝之树"
+      "debut": "淬火尘霾"
     },
     {
       "id": "char_4072_ironmn",
@@ -3472,7 +3472,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2022,
-      "debut": "水月与深蓝之树"
+      "debut": "淬火尘霾"
     },
     {
       "id": "char_4077_palico",
@@ -3568,7 +3568,7 @@
       "faction_hidden": [],
       "race": "未公开",
       "release_year": 2023,
-      "debut": "水月与深蓝之树"
+      "debut": "惊霆无声"
     },
     {
       "id": "char_4088_hodrer",
@@ -3580,7 +3580,7 @@
       "faction_hidden": [],
       "race": "萨卡兹",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "恶兆湍流"
     },
     {
       "id": "char_4091_ulika",
@@ -3604,7 +3604,7 @@
       "faction_hidden": [],
       "race": "未知",
       "release_year": 2023,
-      "debut": "水月与深蓝之树"
+      "debut": "尖灭测试作战"
     },
     {
       "id": "char_4098_vvana",
@@ -3618,7 +3618,7 @@
       ],
       "race": "埃拉菲亚",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "崔林特尔梅之金"
     },
     {
       "id": "char_4100_caper",
@@ -3630,7 +3630,7 @@
       "faction_hidden": [],
       "race": "卡特斯",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "崔林特尔梅之金"
     },
     {
       "id": "char_4102_threye",
@@ -3690,7 +3690,7 @@
       "faction_hidden": [],
       "race": "斐迪亚",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "恶兆湍流"
     },
     {
       "id": "char_4109_baslin",
@@ -3702,7 +3702,7 @@
       "faction_hidden": [],
       "race": "鲁珀",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "崔林特尔梅之金"
     },
     {
       "id": "char_4110_delphn",
@@ -3714,7 +3714,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "恶兆湍流"
     },
     {
       "id": "char_4114_harold",
@@ -3905,7 +3905,7 @@
       ],
       "race": "萨卡兹",
       "release_year": 2024,
-      "debut": "巴别塔"
+      "debut": "慈悲灯塔"
     },
     {
       "id": "char_4134_cetsyr",
@@ -3919,7 +3919,7 @@
       ],
       "race": "未公开",
       "release_year": 2024,
-      "debut": "巴别塔"
+      "debut": "慈悲灯塔"
     },
     {
       "id": "char_4136_phonor",
@@ -3931,7 +3931,7 @@
       "faction_hidden": [],
       "race": "未知",
       "release_year": 2024,
-      "debut": "巴别塔"
+      "debut": "慈悲灯塔"
     },
     {
       "id": "char_4137_udflow",
@@ -4245,7 +4245,7 @@
       "faction_hidden": [],
       "race": "萨弗拉",
       "release_year": 2025,
-      "debut": "促融共竞/01"
+      "debut": "离解复合"
     },
     {
       "id": "char_4179_monstr",
@@ -4257,7 +4257,7 @@
       "faction_hidden": [],
       "race": "未公开",
       "release_year": 2025,
-      "debut": "促融共竞/01"
+      "debut": "离解复合"
     },
     {
       "id": "char_4182_oblvns",
@@ -4468,7 +4468,7 @@
       ],
       "race": "斐迪亚",
       "release_year": 2025,
-      "debut": "岁的界园志异"
+      "debut": "反常光谱"
     },
     {
       "id": "char_4207_branch",
@@ -4480,7 +4480,7 @@
       "faction_hidden": [],
       "race": "乌萨斯",
       "release_year": 2025,
-      "debut": "岁的界园志异"
+      "debut": "反常光谱"
     },
     {
       "id": "char_4208_wintim",
@@ -4492,7 +4492,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2025,
-      "debut": "岁的界园志异"
+      "debut": "反常光谱"
     },
     {
       "id": "char_420_flamtl",
@@ -4694,7 +4694,7 @@
       "faction_hidden": [],
       "race": "乌萨斯",
       "release_year": 2026,
-      "debut": "回望泰拉"
+      "debut": "共贺庆典"
     },
     {
       "id": "char_4226_veen",
@@ -4706,7 +4706,7 @@
       "faction_hidden": [],
       "race": "库兰塔",
       "release_year": 2026,
-      "debut": "回望泰拉"
+      "debut": "共贺庆典"
     },
     {
       "id": "char_4227_gallus",
@@ -4718,7 +4718,7 @@
       "faction_hidden": [],
       "race": "未知",
       "release_year": 2026,
-      "debut": "回望泰拉"
+      "debut": "共贺庆典"
     },
     {
       "id": "char_4228_closur",
@@ -4730,7 +4730,7 @@
       "faction_hidden": [],
       "race": "萨卡兹",
       "release_year": 2026,
-      "debut": "回望泰拉"
+      "debut": "共贺庆典"
     },
     {
       "id": "char_4229_aphris",
@@ -4883,7 +4883,7 @@
       "faction_hidden": [],
       "race": "鲁珀",
       "release_year": 2022,
-      "debut": "黎明前奏开播纪念"
+      "debut": "叙拉古人"
     },
     {
       "id": "char_430_fartth",
@@ -4969,7 +4969,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2025,
-      "debut": "促融共竞/01"
+      "debut": "离解复合"
     },
     {
       "id": "char_446_aroma",
@@ -5103,7 +5103,7 @@
       "faction_hidden": [],
       "race": "札拉克",
       "release_year": 2023,
-      "debut": "水月与深蓝之树"
+      "debut": "惊霆无声"
     },
     {
       "id": "char_466_qanik",
@@ -5115,7 +5115,7 @@
       "faction_hidden": [],
       "race": "沃尔珀",
       "release_year": 2022,
-      "debut": "黎明前奏开播纪念"
+      "debut": "叙拉古人"
     },
     {
       "id": "char_469_indigo",
@@ -5297,7 +5297,7 @@
       ],
       "race": "丰蹄",
       "release_year": 2023,
-      "debut": "水月与深蓝之树"
+      "debut": "惊霆无声"
     },
     {
       "id": "char_492_quercu",
@@ -5335,7 +5335,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "恶兆湍流"
     },
     {
       "id": "char_496_wildmn",
@@ -5385,7 +5385,7 @@
       "faction_hidden": [],
       "race": "卡普里尼",
       "release_year": 2023,
-      "debut": "冬隐归路开播庆祝"
+      "debut": "崔林特尔梅之金"
     },
     {
       "id": "char_500_noirc",
