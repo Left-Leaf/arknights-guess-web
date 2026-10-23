@@ -1,6 +1,6 @@
 {
-  "version": "20261023.6",
-  "updatedAt": "2026-10-23T05:08:04.612Z",
+  "version": "20261023.7",
+  "updatedAt": "2026-10-23T05:23:48.914Z",
   "operators": [
     {
       "id": "char_002_amiya",
@@ -641,7 +641,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2026,
-      "debut": "共贺庆典"
+      "debut": "相变临界"
     },
     {
       "id": "char_106_franka",
@@ -4694,7 +4694,7 @@
       "faction_hidden": [],
       "race": "乌萨斯",
       "release_year": 2026,
-      "debut": "共贺庆典"
+      "debut": "相变临界"
     },
     {
       "id": "char_4226_veen",
@@ -4706,7 +4706,7 @@
       "faction_hidden": [],
       "race": "库兰塔",
       "release_year": 2026,
-      "debut": "共贺庆典"
+      "debut": "相变临界"
     },
     {
       "id": "char_4227_gallus",
@@ -4718,7 +4718,7 @@
       "faction_hidden": [],
       "race": "未知",
       "release_year": 2026,
-      "debut": "共贺庆典"
+      "debut": "相变临界"
     },
     {
       "id": "char_4228_closur",
@@ -4730,7 +4730,7 @@
       "faction_hidden": [],
       "race": "萨卡兹",
       "release_year": 2026,
-      "debut": "共贺庆典"
+      "debut": "相变临界"
     },
     {
       "id": "char_4229_aphris",
