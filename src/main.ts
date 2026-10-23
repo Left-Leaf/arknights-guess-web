@@ -250,6 +250,10 @@ function githubLink(): string {
   return `<a class="footer-link" href="https://github.com/Left-Leaf/arknights-guess-web" target="_blank" rel="noopener noreferrer" aria-label="GitHub 项目源码" title="GitHub 项目源码">${ICON_GITHUB}</a>`;
 }
 
+function prtsLink(): string {
+  return `<a class="footer-link footer-source" href="https://prts.wiki" target="_blank" rel="noopener noreferrer" aria-label="Data sourced from PRTS Wiki" title="Data sourced from PRTS Wiki">Data sourced from PRTS Wiki</a>`;
+}
+
 function stateIcon(fieldState: string): string {
   const icon = STATE_ICONS[fieldState] ?? STATE_ICONS.wrong;
   return `<i class="cell-icon" role="img" aria-label="${STATE_LABELS[fieldState] ?? STATE_LABELS.wrong}">${icon}</i>`;
@@ -360,7 +364,7 @@ function renderHome(): void {
         <div class="mode-grid">${cards}</div>
         <p class="home-note">干员为五维判定；敌人为六维判定。</p>
       </main>
-      <footer class="page-footer"><span>记录保存在此浏览器 · 数据来源：PRTS</span>${githubLink()}</footer>
+      <footer class="page-footer"><span>记录保存在此浏览器</span><div class="footer-links">${prtsLink()}${githubLink()}</div></footer>
     </div>`;
 
   root.querySelectorAll<HTMLButtonElement>("[data-mode]").forEach((button) => {
@@ -428,7 +432,7 @@ function renderGame(config: ModeConfig): void {
           </div>
         </div>
       </dialog>
-      <footer class="page-footer"><span>本模式：已开始 ${state.stats[config.mode].gamesPlayed} · 成功 ${state.stats[config.mode].gamesWon} · 最佳连胜 ${state.stats[config.mode].bestStreak}</span>${githubLink()}</footer>
+      <footer class="page-footer"><span>本模式：已开始 ${state.stats[config.mode].gamesPlayed} · 成功 ${state.stats[config.mode].gamesWon} · 最佳连胜 ${state.stats[config.mode].bestStreak}</span><div class="footer-links">${prtsLink()}${githubLink()}</div></footer>
     </div>`;
 
   bindGameEvents(config);
