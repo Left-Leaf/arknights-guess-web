@@ -114,12 +114,12 @@ describe("game session", () => {
     expect(session.guesses).toHaveLength(0);
   });
 
-  it("wins when every field matches even if the id differs", () => {
+  it("does not win when only the dimensions match", () => {
     const answerOp = makeOperator({ id: "char_a", debut: "火蓝之心" });
     const twin = makeOperator({ id: "char_b", name: "孪生", debut: "火蓝之心" });
     const session = createGame([answerOp], { random: () => 0 });
     const byId = new Map([answerOp, twin].map((item) => [item.id, item]));
-    expect(submitGuess(session, twin, byId).status).toBe("won");
+    expect(submitGuess(session, twin, byId).status).toBe("playing");
   });
 
   it("marks release year as close when only the year matches", () => {
