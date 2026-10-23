@@ -114,6 +114,13 @@ describe("game session", () => {
     expect(session.guesses).toHaveLength(0);
   });
 
+  it("wins when every field matches even if the id differs", () => {
+    const twin = makeOperator({ id: "char_twin", name: "孪生" });
+    const session = createGame([answer], { random: () => 0 });
+    const byId = new Map([answer, twin].map((item) => [item.id, item]));
+    expect(submitGuess(session, twin, byId).status).toBe("won");
+  });
+
   it("creates empty local stats", () => {
     expect(defaultStats()).toEqual({ gamesPlayed: 0, gamesWon: 0, currentStreak: 0, bestStreak: 0 });
   });

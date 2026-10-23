@@ -246,9 +246,12 @@ function submit<T extends { id: string; name: string }>(
   const answer = byId.get(session.answerId);
   if (!answer) throw new Error("本局答案无效，请刷新页面重新开始。");
 
-  const guesses = [...session.guesses, { guessId: guess.id, result: compare(guess, answer) }];
+  const result = compare(guess, answer);
+  const guesses = [...session.guesses, { guessId: guess.id, result }];
   const limitReached = session.maxAttempts > 0 && guesses.length >= session.maxAttempts;
-  const status: GameStatus = guess.id === answer.id ? "won" : limitReached ? "lost" : "playing";
+  // 两名干员五维完全相同时（如末药 / 苏苏洛），猜中任意一个都应结束对局
+  const exactMatch = Object.values(result).every((value) => value === "correct");
+  const status: GameStatus = exactMatch ? "won" : limitReached ? "lost" : "playing";
   return {
     ...session,
     guesses,
