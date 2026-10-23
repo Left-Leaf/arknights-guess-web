@@ -1,6 +1,6 @@
 {
-  "version": "20261023.4",
-  "updatedAt": "2026-10-23T04:49:18.001Z",
+  "version": "20261023.5",
+  "updatedAt": "2026-10-23T05:00:21.834Z",
   "operators": [
     {
       "id": "char_002_amiya",
@@ -1111,7 +1111,7 @@
       "faction_hidden": [],
       "race": "杜林",
       "release_year": 2019,
-      "debut": ""
+      "debut": "火蓝之心"
     },
     {
       "id": "char_154_morgan",
@@ -1173,7 +1173,7 @@
       "faction_hidden": [],
       "race": "未知（疑似黎博利）",
       "release_year": 2020,
-      "debut": ""
+      "debut": "愚人节"
     },
     {
       "id": "char_163_hpsts",
@@ -1353,7 +1353,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2019,
-      "debut": ""
+      "debut": "火蓝之心"
     },
     {
       "id": "char_190_clour",
@@ -1501,7 +1501,7 @@
       "faction_hidden": [],
       "race": "未公开",
       "release_year": 2020,
-      "debut": ""
+      "debut": "洪炉示岁"
     },
     {
       "id": "char_2015_dusk",
@@ -1790,7 +1790,7 @@
       "faction_hidden": [],
       "race": "菲林",
       "release_year": 2020,
-      "debut": ""
+      "debut": "洪炉示岁"
     },
     {
       "id": "char_226_hmau",
@@ -1802,7 +1802,7 @@
       "faction_hidden": [],
       "race": "佩洛",
       "release_year": 2020,
-      "debut": ""
+      "debut": "洪炉示岁"
     },
     {
       "id": "char_230_savage",
@@ -2103,7 +2103,7 @@
       "faction_hidden": [],
       "race": "黎博利",
       "release_year": 2019,
-      "debut": ""
+      "debut": "火蓝之心"
     },
     {
       "id": "char_275_breeze",
