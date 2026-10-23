@@ -1,6 +1,6 @@
 {
-  "version": "20261023.3",
-  "updatedAt": "2026-10-23T02:56:35.268Z",
+  "version": "20261023.4",
+  "updatedAt": "2026-10-23T04:49:18.001Z",
   "operators": [
     {
       "id": "char_002_amiya",
@@ -2016,7 +2016,7 @@
       ],
       "race": "沃尔珀",
       "release_year": 2019,
-      "debut": ""
+      "debut": "金秋"
     },
     {
       "id": "char_261_sddrag",
