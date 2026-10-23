@@ -418,6 +418,16 @@ function renderGame(config: ModeConfig): void {
         </div>
       </main>
       ${settingsDialogMarkup(config)}
+      <dialog class="confirm-dialog" id="confirm-dialog" aria-labelledby="confirm-title">
+        <div class="confirm-body">
+          <strong class="confirm-title" id="confirm-title">结束当前对局？</strong>
+          <p class="confirm-text">当前猜测进度会被清除。确认后不会立即开新局，输入第一个${config.noun}名时才会开始新的一局。</p>
+          <div class="confirm-actions">
+            <button type="button" class="confirm-cancel" id="cancel-restart">继续本局</button>
+            <button type="button" class="confirm-ok" id="confirm-restart">结束本局</button>
+          </div>
+        </div>
+      </dialog>
       <footer class="page-footer"><span>本模式：已开始 ${state.stats[config.mode].gamesPlayed} · 成功 ${state.stats[config.mode].gamesWon} · 最佳连胜 ${state.stats[config.mode].bestStreak}</span>${githubLink()}</footer>
     </div>`;
 
@@ -441,13 +451,27 @@ function bindGameEvents(config: ModeConfig): void {
   });
   document.querySelector<HTMLButtonElement>("#restart-game")?.addEventListener("click", () => {
     const playing = state.sessions[config.mode]?.status === "playing";
-    if (playing && !window.confirm("结束本局？当前猜测进度将被清除。")) return;
-    endSession(config, playing ? "已结束本局，输入名称开始新的一局。" : "");
+    if (!playing) {
+      endSession(config, "");
+      return;
+    }
+    openConfirmDialog();
   });
   document.querySelector<HTMLButtonElement>("#open-settings")?.addEventListener("click", openSettings);
   const dialog = document.querySelector<HTMLDialogElement>("#settings-dialog");
   dialog?.addEventListener("click", (event) => {
     if (event.target === dialog) dialog.close();
+  });
+  const confirmDialog = document.querySelector<HTMLDialogElement>("#confirm-dialog");
+  document.querySelector<HTMLButtonElement>("#cancel-restart")?.addEventListener("click", () => {
+    confirmDialog?.close();
+  });
+  document.querySelector<HTMLButtonElement>("#confirm-restart")?.addEventListener("click", () => {
+    confirmDialog?.close();
+    endSession(config, "已结束本局，输入名称开始新的一局。");
+  });
+  confirmDialog?.addEventListener("click", (event) => {
+    if (event.target === confirmDialog) confirmDialog.close();
   });
   document.querySelectorAll<HTMLInputElement>('input[name="rarity"]').forEach((checkbox) => {
     checkbox.addEventListener("change", () => {
@@ -473,6 +497,11 @@ function bindGameEvents(config: ModeConfig): void {
 
 function openSettings(): void {
   const dialog = document.querySelector<HTMLDialogElement>("#settings-dialog");
+  if (dialog && !dialog.open) dialog.showModal();
+}
+
+function openConfirmDialog(): void {
+  const dialog = document.querySelector<HTMLDialogElement>("#confirm-dialog");
   if (dialog && !dialog.open) dialog.showModal();
 }
 

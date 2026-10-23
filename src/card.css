@@ -112,6 +112,18 @@ h1 span { color: var(--accent); }
 .setting-hint { flex-basis: 100%; margin: 0; color: var(--faint); font-size: 9px; }
 .settings-error { min-height: 13px; margin: 0; color: #fca5a5; font-size: 10px; }
 
+.confirm-dialog { width: min(380px, calc(100% - 28px)); padding: 0; border: 1px solid var(--line); border-radius: 14px; color: var(--ink); background: linear-gradient(180deg, #0f1729, #111c2f); box-shadow: 0 24px 70px rgba(2, 6, 23, .65); }
+.confirm-dialog::backdrop { background: rgba(2, 6, 23, .72); backdrop-filter: blur(2px); }
+.confirm-body { display: flex; flex-direction: column; gap: 12px; padding: 20px; }
+.confirm-title { font-size: 15px; font-weight: 800; }
+.confirm-text { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.confirm-actions { display: flex; gap: 8px; margin-top: 4px; }
+.confirm-cancel, .confirm-ok { flex: 1; height: 40px; border-radius: 8px; font-size: 12px; font-weight: 700; }
+.confirm-cancel { border: 1px solid var(--line); color: var(--muted); background: transparent; }
+.confirm-cancel:hover { border-color: var(--accent); color: var(--ink); }
+.confirm-ok { border: 0; color: #111827; background: var(--accent); }
+.confirm-ok:hover { background: #fbbf24; }
+
 .home-lead { margin: 18px 0 16px; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .mode-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .mode-card { display: flex; flex-direction: column; gap: 8px; min-height: 168px; padding: 18px; border: 1px solid var(--line); border-radius: 14px; color: var(--ink); background: linear-gradient(180deg, rgba(37, 99, 235, .12), rgba(15, 23, 41, .6)); text-align: left; transition: border-color .16s ease, transform .16s ease; }
@@ -188,6 +200,11 @@ h1 span { color: var(--accent); }
   .mode-card strong { font-size: 18px; }
   .mode-desc { font-size: 10px; }
   .settings-dialog { width: calc(100% - 20px); }
+  .confirm-dialog { width: calc(100% - 20px); }
+  .confirm-body { gap: 10px; padding: 16px; }
+  .confirm-title { font-size: 14px; }
+  .confirm-text { font-size: 11px; }
+  .confirm-cancel, .confirm-ok { height: 42px; font-size: 12px; }
   .settings-form { gap: 10px; padding: 16px; }
   .progress { font-size: 19px; }
   .card-rule { margin-top: 16px; }
