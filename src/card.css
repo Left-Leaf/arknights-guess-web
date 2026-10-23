@@ -159,6 +159,9 @@ h1 span { color: var(--accent); }
 .tone-wrong { color: #fecaca; border-color: var(--red); background: var(--red-bg); }
 
 .empty-board { display: flex; min-height: 120px; align-items: center; justify-content: center; color: var(--muted); font-size: 12px; text-align: center; }
+.board-note { margin: 0 0 10px; color: var(--faint); font-size: 9px; line-height: 1.6; }
+.board-note .note-green { color: #86efac; }
+.board-note .note-yellow { color: #fde047; }
 
 .status-bar { margin-top: 2px; padding: 14px 16px; border: 1px solid #475569; border-radius: 11px; color: #cbd5e1; background: #1e293b; font-size: 13px; font-weight: 700; line-height: 1.5; }
 .status-won { border-color: var(--green); color: #bbf7d0; background: var(--green-bg); }

@@ -1,6 +1,6 @@
 {
-  "version": "20261022.2",
-  "updatedAt": "2026-10-22T13:06:11.595Z",
+  "version": "20261023.3",
+  "updatedAt": "2026-10-23T02:56:35.268Z",
   "operators": [
     {
       "id": "char_002_amiya",
@@ -1742,7 +1742,7 @@
       "faction_hidden": [],
       "race": "阿戈尔",
       "release_year": 2020,
-      "debut": "火蓝之心2020"
+      "debut": "火蓝之心复刻"
     },
     {
       "id": "char_219_meteo",
@@ -2091,7 +2091,7 @@
       "faction_hidden": [],
       "race": "乌萨斯",
       "release_year": 2020,
-      "debut": "火蓝之心2020"
+      "debut": "火蓝之心复刻"
     },
     {
       "id": "char_274_astesi",
@@ -2281,7 +2281,7 @@
       "faction_hidden": [],
       "race": "阿戈尔",
       "release_year": 2020,
-      "debut": "火蓝之心2020"
+      "debut": "火蓝之心复刻"
     },
     {
       "id": "char_294_ayer",
@@ -3056,7 +3056,7 @@
       "faction_hidden": [],
       "race": "埃拉菲亚",
       "release_year": 2022,
-      "debut": "画中人2022"
+      "debut": "画中人复刻"
     },
     {
       "id": "char_401_elysm",
@@ -3436,7 +3436,7 @@
       "faction_hidden": [],
       "race": "阿戈尔",
       "release_year": 2022,
-      "debut": "长夜临光2022"
+      "debut": "长夜临光复刻"
     },
     {
       "id": "char_4067_lolxh",

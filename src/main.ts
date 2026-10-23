@@ -409,6 +409,7 @@ function renderGame(config: ModeConfig): void {
             <div class="guess-list">${renderRows(config, session)}</div>
           </div>
         </div>
+        ${config.mode === "operator" ? '<p class="board-note">实装：<b class="note-green">绿色 = 登场活动一致</b> · <b class="note-yellow">黄色 = 仅年份一致</b></p>' : ""}
 
         <div class="status-bar status-${status.kind}">${escapeHtml(status.text)}</div>
 

@@ -167,12 +167,23 @@ export function compareOperators(guess: Operator, answer: Operator): FieldStateM
       ? "close"
       : "wrong";
 
+  // 实装：登场活动一致 → 绿；仅年份一致（活动不同或缺失）→ 黄；否则给年份方向
+  const yearState = compareNumber(guess.release_year, answer.release_year);
+  const guessDebut = (guess.debut ?? "").trim();
+  const answerDebut = (answer.debut ?? "").trim();
+  const releaseYear: FieldState =
+    guessDebut && answerDebut && guessDebut === answerDebut
+      ? "correct"
+      : yearState === "correct"
+        ? "close"
+        : yearState;
+
   return {
     rarity: compareNumber(guess.rarity, answer.rarity),
     subclass,
     faction,
     race: guess.race.trim() === answer.race.trim() ? "correct" : "wrong",
-    release_year: compareNumber(guess.release_year, answer.release_year),
+    release_year: releaseYear,
   };
 }
 
@@ -251,7 +262,8 @@ function submit<T extends { id: string; name: string }>(
   const limitReached = session.maxAttempts > 0 && guesses.length >= session.maxAttempts;
   // 两名干员五维完全相同时（如末药 / 苏苏洛），猜中任意一个都应结束对局
   const exactMatch = Object.values(result).every((value) => value === "correct");
-  const status: GameStatus = exactMatch ? "won" : limitReached ? "lost" : "playing";
+  const won = guess.id === answer.id || exactMatch;
+  const status: GameStatus = won ? "won" : limitReached ? "lost" : "playing";
   return {
     ...session,
     guesses,

@@ -115,10 +115,23 @@ describe("game session", () => {
   });
 
   it("wins when every field matches even if the id differs", () => {
-    const twin = makeOperator({ id: "char_twin", name: "孪生" });
-    const session = createGame([answer], { random: () => 0 });
-    const byId = new Map([answer, twin].map((item) => [item.id, item]));
+    const answerOp = makeOperator({ id: "char_a", debut: "火蓝之心" });
+    const twin = makeOperator({ id: "char_b", name: "孪生", debut: "火蓝之心" });
+    const session = createGame([answerOp], { random: () => 0 });
+    const byId = new Map([answerOp, twin].map((item) => [item.id, item]));
     expect(submitGuess(session, twin, byId).status).toBe("won");
+  });
+
+  it("marks release year as close when only the year matches", () => {
+    const guess = makeOperator({ id: "g", release_year: 2020, debut: "火蓝之心2020" });
+    const answerOp = makeOperator({ id: "a", release_year: 2020, debut: "火蓝之心" });
+    expect(compareOperators(guess, answerOp).release_year).toBe("close");
+  });
+
+  it("marks release year as correct when the debut activity matches", () => {
+    expect(compareOperators(makeOperator({ debut: "将进酒" }), makeOperator({ debut: "将进酒" })).release_year).toBe(
+      "correct",
+    );
   });
 
   it("creates empty local stats", () => {
